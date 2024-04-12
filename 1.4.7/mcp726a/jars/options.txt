@@ -3,14 +3,14 @@ sound:1.0
 invertYMouse:false
 mouseSensitivity:0.17605634
 fov:0.52112675
-gamma:0.0
+gamma:1.0
 viewDistance:0
 guiScale:0
 particles:0
 bobView:true
 anaglyph3d:false
-advancedOpengl:false
-fpsLimit:1
+advancedOpengl:true
+fpsLimit:0
 difficulty:2
 fancyGraphics:true
 ao:true
@@ -26,7 +26,7 @@ chatOpacity:1.0
 serverTextures:true
 snooperEnabled:true
 fullscreen:false
-enableVsync:true
+enableVsync:false
 hideServerAddress:false
 advancedItemTooltips:false
 pauseOnLostFocus:true

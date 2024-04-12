@@ -59,3 +59,16 @@ Traceback (most recent call last):
   File "/home/jacobweber/Documents/code-projects/minecraft-classic-modding/1.4.7/mcp726a/runtime/commands.py", line 1119, in runmc
     raise CalledProcessError(process.returncode, forkcmd, output)
 CalledProcessError: Command '"java" -Xincgc -Xms1024M -Xmx1024M -cp "../bin/minecraft:../lib:../lib/*:../jars/bin/minecraft.jar:../jars/bin/jinput.jar:../jars/bin/lwjgl.jar:../jars/bin/lwjgl_util.jar" -Djava.library.path=../jars/bin/natives Start' returned non-zero exit status 1
+16:31:30 - '"javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "lib:lib/*:jars/bin/minec...' failed : 1
+16:31:30 - 
+16:31:30 - == ERRORS FOUND ==
+16:31:30 - 
+16:31:30 - src/minecraft/net/minecraft/src/EntityPlayerSP.java:42: error: ';' expected
+16:31:30 -             this.skinUrl = "https://textures.minecraft.net/texture/3258526c201ddac9e5f83cd0444d8c73e014569bf30533250547aaa838091e"
+16:31:30 -                                                                                                                                   ^
+16:31:30 - 
+16:31:30 - 1 error
+16:31:30 - ==================
+16:31:30 - 
+16:31:30 - !! Can not find server sources, try decompiling !!
+16:32:02 - !! Can not find server sources, try decompiling !!

@@ -38,7 +38,8 @@ public class EntityPlayerSP extends EntityPlayer
 
         if (par3Session != null && par3Session.username != null && par3Session.username.length() > 0)
         {
-            this.skinUrl = "http://skins.minecraft.net/MinecraftSkins/" + StringUtils.stripControlCodes(par3Session.username) + ".png";
+            /*  this.skinUrl = "http://skins.minecraft.net/MinecraftSkins/" + StringUtils.stripControlCodes(par3Session.username) + ".png"; */
+            this.skinUrl = "https://textures.minecraft.net/texture/3258526c201ddac9e5f83cd0444d8c73e014569bf30533250547aaa838091e";
         }
 
         this.username = par3Session.username;
