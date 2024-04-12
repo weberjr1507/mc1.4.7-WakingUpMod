@@ -1,0 +1,61 @@
+00:13:02 - Java JDK is not installed ! Please install java JDK from http://java.oracle.com
+23:44:08 - Java JDK is not installed ! Please install java JDK from http://java.oracle.com
+23:47:55 - !! Missing client jar file. Aborting !!
+23:47:55 - !! Missing server jar file. Aborting !!
+23:54:43 - !! Modified jar detected. Unpredictable results !!
+23:54:43 - !! jars/bin/jinput.jar not found !!
+23:54:43 - !! jars/bin/lwjgl.jar not found !!
+23:54:43 - !! jars/bin/lwjgl_util.jar not found !!
+23:54:43 - !! jars/bin/natives not found !!
+23:54:43 - !! LWJGL check FAILED. Make sure to copy the entire .minecraft/bin folder into jars !!
+00:13:20 - !! Modified jar detected. Unpredictable results !!
+00:13:20 - !! jars/bin/natives not found !!
+00:13:20 - !! LWJGL check FAILED. Make sure to copy the entire .minecraft/bin folder into jars !!
+00:19:37 - !! Modified jar detected. Unpredictable results !!
+00:20:13 - !! Missing server jar file. Aborting !!
+21:22:09 - Java JDK is not installed ! Please install java JDK from http://java.oracle.com
+21:23:13 - '"java" -Xincgc -Xms1024M -Xmx1024M -cp "../bin/minecraft:../lib:../lib/*:../jars/bin/minecraft.jar:....' failed : 1
+21:23:13 - FATAL ERROR
+Traceback (most recent call last):
+  File "runtime/startclient.py", line 30, in startclient
+  File "/home/jacobweber/Documents/code-projects/minecraft-classic-modding/1.4.7/mcp726a/runtime/commands.py", line 1079, in startclient
+    self.runmc(forkcmd)
+  File "/home/jacobweber/Documents/code-projects/minecraft-classic-modding/1.4.7/mcp726a/runtime/commands.py", line 1119, in runmc
+    raise CalledProcessError(process.returncode, forkcmd, output)
+CalledProcessError: Command '"java" -Xincgc -Xms1024M -Xmx1024M -cp "../bin/minecraft:../lib:../lib/*:../jars/bin/minecraft.jar:../jars/bin/jinput.jar:../jars/bin/lwjgl.jar:../jars/bin/lwjgl_util.jar" -Djava.library.path=../jars/bin/natives Start' returned non-zero exit status 1
+21:25:20 - '"java" -Xincgc -Xms1024M -Xmx1024M -cp "../bin/minecraft:../lib:../lib/*:../jars/bin/minecraft.jar:....' failed : 1
+21:25:20 - FATAL ERROR
+Traceback (most recent call last):
+  File "runtime/startclient.py", line 30, in startclient
+  File "/home/jacobweber/Documents/code-projects/minecraft-classic-modding/1.4.7/mcp726a/runtime/commands.py", line 1079, in startclient
+    self.runmc(forkcmd)
+  File "/home/jacobweber/Documents/code-projects/minecraft-classic-modding/1.4.7/mcp726a/runtime/commands.py", line 1119, in runmc
+    raise CalledProcessError(process.returncode, forkcmd, output)
+CalledProcessError: Command '"java" -Xincgc -Xms1024M -Xmx1024M -cp "../bin/minecraft:../lib:../lib/*:../jars/bin/minecraft.jar:../jars/bin/jinput.jar:../jars/bin/lwjgl.jar:../jars/bin/lwjgl_util.jar" -Djava.library.path=../jars/bin/natives Start' returned non-zero exit status 1
+21:34:58 - '"java" -Xincgc -Xms1024M -Xmx1024M -cp "../bin/minecraft:../lib:../lib/*:../jars/bin/minecraft.jar:....' failed : 1
+21:34:58 - FATAL ERROR
+Traceback (most recent call last):
+  File "runtime/startclient.py", line 30, in startclient
+  File "/home/jacobweber/Documents/code-projects/minecraft-classic-modding/1.4.7/mcp726a/runtime/commands.py", line 1079, in startclient
+    self.runmc(forkcmd)
+  File "/home/jacobweber/Documents/code-projects/minecraft-classic-modding/1.4.7/mcp726a/runtime/commands.py", line 1119, in runmc
+    raise CalledProcessError(process.returncode, forkcmd, output)
+CalledProcessError: Command '"java" -Xincgc -Xms1024M -Xmx1024M -cp "../bin/minecraft:../lib:../lib/*:../jars/bin/minecraft.jar:../jars/bin/jinput.jar:../jars/bin/lwjgl.jar:../jars/bin/lwjgl_util.jar" -Djava.library.path=../jars/bin/natives Start' returned non-zero exit status 1
+21:48:37 - '"java" -Xincgc -Xms1024M -Xmx1024M -cp "../bin/minecraft:../lib:../lib/*:../jars/bin/minecraft.jar:....' failed : 1
+21:48:37 - FATAL ERROR
+Traceback (most recent call last):
+  File "runtime/startclient.py", line 30, in startclient
+  File "/home/jacobweber/Documents/code-projects/minecraft-classic-modding/1.4.7/mcp726a/runtime/commands.py", line 1079, in startclient
+    self.runmc(forkcmd)
+  File "/home/jacobweber/Documents/code-projects/minecraft-classic-modding/1.4.7/mcp726a/runtime/commands.py", line 1119, in runmc
+    raise CalledProcessError(process.returncode, forkcmd, output)
+CalledProcessError: Command '"java" -Xincgc -Xms1024M -Xmx1024M -cp "../bin/minecraft:../lib:../lib/*:../jars/bin/minecraft.jar:../jars/bin/jinput.jar:../jars/bin/lwjgl.jar:../jars/bin/lwjgl_util.jar" -Djava.library.path=../jars/bin/natives Start' returned non-zero exit status 1
+21:52:17 - '"java" -Xincgc -Xms1024M -Xmx1024M -cp "../bin/minecraft:../lib:../lib/*:../jars/bin/minecraft.jar:....' failed : 1
+21:52:17 - FATAL ERROR
+Traceback (most recent call last):
+  File "runtime/startclient.py", line 30, in startclient
+  File "/home/jacobweber/Documents/code-projects/minecraft-classic-modding/1.4.7/mcp726a/runtime/commands.py", line 1079, in startclient
+    self.runmc(forkcmd)
+  File "/home/jacobweber/Documents/code-projects/minecraft-classic-modding/1.4.7/mcp726a/runtime/commands.py", line 1119, in runmc
+    raise CalledProcessError(process.returncode, forkcmd, output)
+CalledProcessError: Command '"java" -Xincgc -Xms1024M -Xmx1024M -cp "../bin/minecraft:../lib:../lib/*:../jars/bin/minecraft.jar:../jars/bin/jinput.jar:../jars/bin/lwjgl.jar:../jars/bin/lwjgl_util.jar" -Djava.library.path=../jars/bin/natives Start' returned non-zero exit status 1
