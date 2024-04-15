@@ -6582,3 +6582,155 @@ Artistic Style Version 2.02.1
 16:56:22 - SoundSystem shutting down...
 16:56:22 -     Author: Paul Lamb, www.paulscode.com
 16:56:22 - 
+14:31:22 - == MCP 7.26 (data: 7.26a, client: 1.4.7, server: 1.4.7) ==
+14:31:22 - OS : linux2
+14:31:22 - runmc: '"java" -Xincgc -Xms1024M -Xmx1024M -cp "../bin/minecraft:../lib:../lib/*:../jars/bin/minecraft.jar:../jars/bin/jinput.jar:../jars/bin/lwjgl.jar:../jars/bin/lwjgl_util.jar" -Djava.library.path=../jars/bin/natives Start'
+14:31:22 - shlex: ['java', '-Xincgc', '-Xms1024M', '-Xmx1024M', '-cp', '../bin/minecraft:../lib:../lib/*:../jars/bin/minecraft.jar:../jars/bin/jinput.jar:../jars/bin/lwjgl.jar:../jars/bin/lwjgl_util.jar', '-Djava.library.path=../jars/bin/natives', 'Start']
+14:31:22 - Java HotSpot(TM) Server VM warning: Using incremental CMS is deprecated and will likely be removed in a future release
+14:31:22 - 27 achievements
+14:31:22 - 210 recipes
+14:31:22 - Setting user: Player596, -
+14:31:22 - Client asked for parameter: server
+14:31:22 - LWJGL Version: 2.9.4
+14:31:23 - 
+14:31:23 - Starting up SoundSystem...
+14:31:23 - Initializing LWJGL OpenAL
+14:31:23 -     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+14:31:23 - OpenAL initialized.
+14:31:24 - 
+14:31:24 - Failed to add READ_ME_I_AM_VERY_IMPORTANT
+14:31:24 - Failed to add pack.mcmeta
+14:31:24 - java.io.FileNotFoundException: http://s3.amazonaws.com/MinecraftResources/
+14:31:24 - 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1910)
+14:31:24 - 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
+14:31:24 - 	at java.net.URL.openStream(URL.java:1092)
+14:31:24 - 	at net.minecraft.src.ThreadDownloadResources.run(ThreadDownloadResources.java:48)
+14:31:37 - Apr 13, 2024 2:31:37 PM net.minecraft.src.IntegratedServer startServer
+14:31:37 - INFO: Starting integrated minecraft server version 1.4.7
+14:31:37 - Apr 13, 2024 2:31:37 PM net.minecraft.src.IntegratedServer startServer
+14:31:37 - INFO: Generating keypair
+14:31:37 - Apr 13, 2024 2:31:37 PM net.minecraft.server.MinecraftServer initialWorldChunkLoad
+14:31:37 - INFO: Preparing start region for level 0
+14:31:38 - Apr 13, 2024 2:31:38 PM net.minecraft.src.ServerConfigurationManager initializeConnectionToPlayer
+14:31:38 - INFO: Player596[/127.0.0.1:0] logged in with entity id 418 at (176.49477741612245, 64.0, 256.60586774721475)
+14:31:38 - java.net.UnknownHostException: skins.minecraft.net
+14:31:38 - 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:196)
+14:31:38 - 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+14:31:38 - 	at java.net.Socket.connect(Socket.java:606)
+14:31:38 - 	at java.net.Socket.connect(Socket.java:555)
+14:31:38 - 	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+14:31:38 - 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:499)
+14:31:38 - 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:594)
+14:31:38 - 	at sun.net.www.http.HttpClient.<init>(HttpClient.java:278)
+14:31:38 - 	at sun.net.www.http.HttpClient.New(HttpClient.java:375)
+14:31:38 - 	at sun.net.www.http.HttpClient.New(HttpClient.java:393)
+14:31:38 - 	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1240)
+14:31:38 - 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1167)
+14:31:38 - 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1061)
+14:31:38 - 	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:995)
+14:31:38 - 	at net.minecraft.src.ThreadDownloadImage.run(ThreadDownloadImage.java:35)
+14:31:56 - Apr 13, 2024 2:31:56 PM net.minecraft.src.IntegratedServer tick
+14:31:56 - INFO: Saving and pausing game...
+14:31:56 - Apr 13, 2024 2:31:56 PM net.minecraft.server.MinecraftServer saveAllWorlds
+14:31:56 - INFO: Saving chunks for level 'New World'/Overworld
+14:31:56 - Apr 13, 2024 2:31:56 PM net.minecraft.server.MinecraftServer saveAllWorlds
+14:31:56 - INFO: Saving chunks for level 'New World'/Nether
+14:31:56 - Apr 13, 2024 2:31:56 PM net.minecraft.server.MinecraftServer saveAllWorlds
+14:31:56 - INFO: Saving chunks for level 'New World'/The End
+14:31:58 - Apr 13, 2024 2:31:58 PM net.minecraft.src.IntegratedServer tick
+14:31:58 - INFO: Saving and pausing game...
+14:31:58 - Apr 13, 2024 2:31:58 PM net.minecraft.server.MinecraftServer saveAllWorlds
+14:31:58 - INFO: Saving chunks for level 'New World'/Overworld
+14:31:58 - Apr 13, 2024 2:31:58 PM net.minecraft.server.MinecraftServer saveAllWorlds
+14:31:58 - INFO: Saving chunks for level 'New World'/Nether
+14:31:58 - Apr 13, 2024 2:31:58 PM net.minecraft.server.MinecraftServer saveAllWorlds
+14:31:58 - INFO: Saving chunks for level 'New World'/The End
+14:31:59 - Apr 13, 2024 2:31:59 PM net.minecraft.server.MinecraftServer stopServer
+14:31:59 - INFO: Stopping server
+14:31:59 - Apr 13, 2024 2:31:59 PM net.minecraft.server.MinecraftServer stopServer
+14:31:59 - INFO: Saving players
+14:31:59 - Apr 13, 2024 2:31:59 PM net.minecraft.server.MinecraftServer stopServer
+14:31:59 - INFO: Saving worlds
+14:31:59 - Apr 13, 2024 2:31:59 PM net.minecraft.server.MinecraftServer saveAllWorlds
+14:31:59 - INFO: Saving chunks for level 'New World'/Overworld
+14:31:59 - Apr 13, 2024 2:31:59 PM net.minecraft.server.MinecraftServer saveAllWorlds
+14:31:59 - INFO: Saving chunks for level 'New World'/Nether
+14:31:59 - Apr 13, 2024 2:31:59 PM net.minecraft.server.MinecraftServer saveAllWorlds
+14:31:59 - INFO: Saving chunks for level 'New World'/The End
+14:32:00 - Stopping!
+14:32:00 - 
+14:32:00 - SoundSystem shutting down...
+14:32:01 -     Author: Paul Lamb, www.paulscode.com
+14:32:01 - 
+13:17:17 - == MCP 7.26 (data: 7.26a, client: 1.4.7, server: 1.4.7) ==
+13:17:17 - OS : linux2
+13:17:17 - runmc: '"java" -Xincgc -Xms1024M -Xmx1024M -cp "../bin/minecraft:../lib:../lib/*:../jars/bin/minecraft.jar:../jars/bin/jinput.jar:../jars/bin/lwjgl.jar:../jars/bin/lwjgl_util.jar" -Djava.library.path=../jars/bin/natives Start'
+13:17:17 - shlex: ['java', '-Xincgc', '-Xms1024M', '-Xmx1024M', '-cp', '../bin/minecraft:../lib:../lib/*:../jars/bin/minecraft.jar:../jars/bin/jinput.jar:../jars/bin/lwjgl.jar:../jars/bin/lwjgl_util.jar', '-Djava.library.path=../jars/bin/natives', 'Start']
+13:17:17 - Java HotSpot(TM) Server VM warning: Using incremental CMS is deprecated and will likely be removed in a future release
+13:17:18 - 27 achievements
+13:17:18 - 210 recipes
+13:17:18 - Setting user: Player72, -
+13:17:18 - Client asked for parameter: server
+13:17:18 - LWJGL Version: 2.9.4
+13:17:18 - 
+13:17:18 - Starting up SoundSystem...
+13:17:19 - Initializing LWJGL OpenAL
+13:17:19 -     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+13:17:19 - OpenAL initialized.
+13:17:19 - 
+13:17:19 - Failed to add READ_ME_I_AM_VERY_IMPORTANT
+13:17:19 - Failed to add pack.mcmeta
+13:17:19 - java.io.FileNotFoundException: http://s3.amazonaws.com/MinecraftResources/
+13:17:19 - 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1910)
+13:17:19 - 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
+13:17:19 - 	at java.net.URL.openStream(URL.java:1092)
+13:17:19 - 	at net.minecraft.src.ThreadDownloadResources.run(ThreadDownloadResources.java:48)
+13:17:21 - Apr 14, 2024 1:17:21 PM net.minecraft.src.IntegratedServer startServer
+13:17:21 - INFO: Starting integrated minecraft server version 1.4.7
+13:17:21 - Apr 14, 2024 1:17:21 PM net.minecraft.src.IntegratedServer startServer
+13:17:21 - INFO: Generating keypair
+13:17:22 - Apr 14, 2024 1:17:22 PM net.minecraft.server.MinecraftServer initialWorldChunkLoad
+13:17:22 - INFO: Preparing start region for level 0
+13:17:22 - Apr 14, 2024 1:17:22 PM net.minecraft.src.ServerConfigurationManager initializeConnectionToPlayer
+13:17:22 - INFO: Player72[/127.0.0.1:0] logged in with entity id 417 at (207.61922002694345, 63.0, 270.0243374870339)
+13:17:22 - java.net.UnknownHostException: skins.minecraft.net
+13:17:22 - 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:196)
+13:17:22 - 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+13:17:22 - 	at java.net.Socket.connect(Socket.java:606)
+13:17:22 - 	at java.net.Socket.connect(Socket.java:555)
+13:17:22 - 	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+13:17:22 - 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:499)
+13:17:22 - 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:594)
+13:17:22 - 	at sun.net.www.http.HttpClient.<init>(HttpClient.java:278)
+13:17:22 - 	at sun.net.www.http.HttpClient.New(HttpClient.java:375)
+13:17:22 - 	at sun.net.www.http.HttpClient.New(HttpClient.java:393)
+13:17:22 - 	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1240)
+13:17:22 - 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1167)
+13:17:22 - 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1061)
+13:17:22 - 	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:995)
+13:17:22 - 	at net.minecraft.src.ThreadDownloadImage.run(ThreadDownloadImage.java:35)
+13:17:25 - Apr 14, 2024 1:17:25 PM net.minecraft.src.IntegratedServer tick
+13:17:25 - INFO: Saving and pausing game...
+13:17:25 - Apr 14, 2024 1:17:25 PM net.minecraft.server.MinecraftServer saveAllWorlds
+13:17:25 - INFO: Saving chunks for level 'New World'/Overworld
+13:17:25 - Apr 14, 2024 1:17:25 PM net.minecraft.server.MinecraftServer saveAllWorlds
+13:17:25 - INFO: Saving chunks for level 'New World'/Nether
+13:17:25 - Apr 14, 2024 1:17:25 PM net.minecraft.server.MinecraftServer saveAllWorlds
+13:17:25 - INFO: Saving chunks for level 'New World'/The End
+13:17:26 - Apr 14, 2024 1:17:26 PM net.minecraft.server.MinecraftServer stopServer
+13:17:26 - INFO: Stopping server
+13:17:26 - Apr 14, 2024 1:17:26 PM net.minecraft.server.MinecraftServer stopServer
+13:17:26 - INFO: Saving players
+13:17:26 - Apr 14, 2024 1:17:26 PM net.minecraft.server.MinecraftServer stopServer
+13:17:26 - INFO: Saving worlds
+13:17:26 - Apr 14, 2024 1:17:26 PM net.minecraft.server.MinecraftServer saveAllWorlds
+13:17:26 - INFO: Saving chunks for level 'New World'/Overworld
+13:17:26 - Apr 14, 2024 1:17:26 PM net.minecraft.server.MinecraftServer saveAllWorlds
+13:17:26 - INFO: Saving chunks for level 'New World'/Nether
+13:17:26 - Apr 14, 2024 1:17:26 PM net.minecraft.server.MinecraftServer saveAllWorlds
+13:17:26 - INFO: Saving chunks for level 'New World'/The End
+13:17:26 - Stopping!
+13:17:26 - 
+13:17:26 - SoundSystem shutting down...
+13:17:26 -     Author: Paul Lamb, www.paulscode.com
+13:17:26 - 
