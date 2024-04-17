@@ -1,6 +1,9 @@
 package net.minecraft.src;
 
+import java.net.MalformedURLException;
+
 import net.minecraft.client.Minecraft;
+import net.minecraft.mod.SkinFix;
 
 public class EntityPlayerSP extends EntityPlayer
 {
@@ -38,8 +41,10 @@ public class EntityPlayerSP extends EntityPlayer
 
         if (par3Session != null && par3Session.username != null && par3Session.username.length() > 0)
         {
-            /*  this.skinUrl = "http://skins.minecraft.net/MinecraftSkins/" + StringUtils.stripControlCodes(par3Session.username) + ".png"; */
-            this.skinUrl = "https://textures.minecraft.net/texture/3258526c201ddac9e5f83cd0444d8c73e014569bf30533250547aaa838091e";
+            // this.skinUrl = "http://skins.minecraft.net/MinecraftSkins/" + StringUtils.stripControlCodes(par3Session.username) + ".png";
+            // this.skinUrl = SkinFix.skinGet(par3Session.username, "skin");
+            this.skinUrl = SkinFix.skinGet("Moophfe", "skin");
+
         }
 
         this.username = par3Session.username;

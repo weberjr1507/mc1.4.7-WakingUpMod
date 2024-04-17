@@ -72,3 +72,807 @@ CalledProcessError: Command '"java" -Xincgc -Xms1024M -Xmx1024M -cp "../bin/mine
 16:31:30 - 
 16:31:30 - !! Can not find server sources, try decompiling !!
 16:32:02 - !! Can not find server sources, try decompiling !!
+22:17:53 - '"javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "lib:lib/*:jars/bin/minec...' failed : 1
+22:17:53 - 
+22:17:53 - == ERRORS FOUND ==
+22:17:53 - 
+22:17:53 - src/minecraft/net/minecraft/src/skinFix.java:10: error: package org.json.simple does not exist
+22:17:53 - import org.json.simple.JSONArray;
+22:17:53 -                       ^
+22:17:53 - 
+22:17:53 - src/minecraft/net/minecraft/src/skinFix.java:11: error: package org.json.simple does not exist
+22:17:53 - import org.json.simple.JSONObject;
+22:17:53 -                       ^
+22:17:53 - 
+22:17:53 - src/minecraft/net/minecraft/src/skinFix.java:12: error: package org.json.simple.parser does not exist
+22:17:53 - import org.json.simple.parser.JSONParser;
+22:17:53 -                              ^
+22:17:53 - 
+22:17:53 - src/minecraft/net/minecraft/src/skinFix.java:44: error: cannot find symbol
+22:17:53 -     public static JSONObject parseJSON(String jsonString) {
+22:17:53 -                   ^
+22:17:53 - 
+22:17:53 -   symbol:   class JSONObject
+22:17:53 -   location: class skinFix
+22:17:53 - src/minecraft/net/minecraft/src/skinFix.java:45: error: cannot find symbol
+22:17:53 -       JSONObject object = null;
+22:17:53 -       ^
+22:17:53 - 
+22:17:53 -   symbol:   class JSONObject
+22:17:53 -   location: class skinFix
+22:17:53 - src/minecraft/net/minecraft/src/skinFix.java:47: error: cannot find symbol
+22:17:53 -         JSONParser parser = new JSONParser();
+22:17:53 -         ^
+22:17:53 - 
+22:17:53 -   symbol:   class JSONParser
+22:17:53 -   location: class skinFix
+22:17:53 - src/minecraft/net/minecraft/src/skinFix.java:47: error: cannot find symbol
+22:17:53 -         JSONParser parser = new JSONParser();
+22:17:53 -                                 ^
+22:17:53 - 
+22:17:53 -   symbol:   class JSONParser
+22:17:53 -   location: class skinFix
+22:17:53 - src/minecraft/net/minecraft/src/skinFix.java:48: error: cannot find symbol
+22:17:53 -         object = (JSONObject) parser.parse(jsonString);
+22:17:53 -                   ^
+22:17:53 - 
+22:17:53 -   symbol:   class JSONObject
+22:17:53 -   location: class skinFix
+22:17:53 - src/minecraft/net/minecraft/src/skinFix.java:60: error: cannot find symbol
+22:17:53 -         JSONObject json = parseJSON(jsonString);
+22:17:53 -         ^
+22:17:53 - 
+22:17:53 -   symbol:   class JSONObject
+22:17:53 -   location: class skinFix
+22:17:53 - src/minecraft/net/minecraft/src/skinFix.java:67: error: cannot find symbol
+22:17:53 -         JSONArray propertiesArray = (JSONArray) json.get("properties");
+22:17:53 -         ^
+22:17:53 - 
+22:17:53 -   symbol:   class JSONArray
+22:17:53 -   location: class skinFix
+22:17:53 - src/minecraft/net/minecraft/src/skinFix.java:67: error: cannot find symbol
+22:17:53 -         JSONArray propertiesArray = (JSONArray) json.get("properties");
+22:17:53 -                                      ^
+22:17:53 - 
+22:17:53 -   symbol:   class JSONArray
+22:17:53 -   location: class skinFix
+22:17:53 - src/minecraft/net/minecraft/src/skinFix.java:68: error: cannot find symbol
+22:17:53 -         json = (JSONObject) propertiesArray.get(0);
+22:17:53 -                 ^
+22:17:53 - 
+22:17:53 -   symbol:   class JSONObject
+22:17:53 -   location: class skinFix
+22:17:53 - src/minecraft/net/minecraft/src/skinFix.java:75: error: cannot find symbol
+22:17:53 -         JSONObject textures = (JSONObject) json.get("textures");
+22:17:53 -         ^
+22:17:53 - 
+22:17:53 -   symbol:   class JSONObject
+22:17:53 -   location: class skinFix
+22:17:53 - src/minecraft/net/minecraft/src/skinFix.java:75: error: cannot find symbol
+22:17:53 -         JSONObject textures = (JSONObject) json.get("textures");
+22:17:53 -                                ^
+22:17:53 - 
+22:17:53 -   symbol:   class JSONObject
+22:17:53 -   location: class skinFix
+22:17:53 - src/minecraft/net/minecraft/src/skinFix.java:78: error: cannot find symbol
+22:17:53 -           JSONObject skin = (JSONObject) textures.get("SKIN");
+22:17:53 -           ^
+22:17:53 - 
+22:17:53 -   symbol:   class JSONObject
+22:17:53 -   location: class skinFix
+22:17:53 - src/minecraft/net/minecraft/src/skinFix.java:78: error: cannot find symbol
+22:17:53 -           JSONObject skin = (JSONObject) textures.get("SKIN");
+22:17:53 -                              ^
+22:17:53 - 
+22:17:53 -   symbol:   class JSONObject
+22:17:53 -   location: class skinFix
+22:17:53 - src/minecraft/net/minecraft/src/skinFix.java:85: error: cannot find symbol
+22:17:53 -           JSONObject cape = (JSONObject) textures.get("CAPE");
+22:17:53 -           ^
+22:17:53 - 
+22:17:53 -   symbol:   class JSONObject
+22:17:53 -   location: class skinFix
+22:17:53 - src/minecraft/net/minecraft/src/skinFix.java:85: error: cannot find symbol
+22:17:53 -           JSONObject cape = (JSONObject) textures.get("CAPE");
+22:17:53 -                              ^
+22:17:53 - 
+22:17:53 -   symbol:   class JSONObject
+22:17:53 -   location: class skinFix
+22:17:53 - 18 errors
+22:17:53 - ==================
+22:17:53 - 
+22:17:53 - !! Can not find server sources, try decompiling !!
+22:18:40 - '"javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "lib:lib/*:jars/bin/minec...' failed : 1
+22:18:40 - 
+22:18:40 - == ERRORS FOUND ==
+22:18:40 - 
+22:18:40 - src/minecraft/net/minecraft/src/skinFix.java:10: error: package org.json.simple does not exist
+22:18:40 - import org.json.simple.JSONArray;
+22:18:40 -                       ^
+22:18:40 - 
+22:18:40 - src/minecraft/net/minecraft/src/skinFix.java:11: error: package org.json.simple does not exist
+22:18:40 - import org.json.simple.JSONObject;
+22:18:40 -                       ^
+22:18:40 - 
+22:18:40 - src/minecraft/net/minecraft/src/skinFix.java:12: error: package org.json.simple.parser does not exist
+22:18:40 - import org.json.simple.parser.JSONParser;
+22:18:40 -                              ^
+22:18:40 - 
+22:18:40 - src/minecraft/net/minecraft/src/skinFix.java:44: error: cannot find symbol
+22:18:40 -     public static JSONObject parseJSON(String jsonString) {
+22:18:40 -                   ^
+22:18:40 - 
+22:18:40 -   symbol:   class JSONObject
+22:18:40 -   location: class skinFix
+22:18:40 - src/minecraft/net/minecraft/src/skinFix.java:17: error: duplicate class: skinFix
+22:18:40 - public class skinFix {
+22:18:40 -        ^
+22:18:40 - 
+22:18:40 - src/minecraft/net/minecraft/src/EntityPlayerSP.java:45: error: cannot access skinFix
+22:18:40 -             this.skinUrl = skinFix.skinGet("Weo", "skin");
+22:18:40 -                            ^
+22:18:40 - 
+22:18:40 -   bad source file: src/minecraft/net/minecraft/src/skinFix.java
+22:18:40 -     file does not contain class net.minecraft.src.skinFix
+22:18:40 -     Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+22:18:40 - 6 errors
+22:18:40 - ==================
+22:18:40 - 
+22:18:40 - !! Can not find server sources, try decompiling !!
+22:45:04 - '"javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "lib:lib/*:jars/bin/minec...' failed : 1
+22:45:04 - 
+22:45:04 - == ERRORS FOUND ==
+22:45:04 - 
+22:45:04 - src/minecraft/net/minecraft/mod/SkinFix.java:12: error: package org.json.simple does not exist
+22:45:04 - import org.json.simple.*;
+22:45:04 - ^
+22:45:04 - 
+22:45:04 - src/minecraft/net/minecraft/mod/SkinFix.java:44: error: cannot find symbol
+22:45:04 -     public static JSONObject parseJSON(String jsonString) {
+22:45:04 -                   ^
+22:45:04 - 
+22:45:04 -   symbol:   class JSONObject
+22:45:04 -   location: class SkinFix
+22:45:04 - src/minecraft/net/minecraft/mod/SkinFix.java:45: error: cannot find symbol
+22:45:04 -       JSONObject object = null;
+22:45:04 -       ^
+22:45:04 - 
+22:45:04 -   symbol:   class JSONObject
+22:45:04 -   location: class SkinFix
+22:45:04 - src/minecraft/net/minecraft/mod/SkinFix.java:47: error: cannot find symbol
+22:45:04 -         JSONParser parser = new JSONParser();
+22:45:04 -         ^
+22:45:04 - 
+22:45:04 -   symbol:   class JSONParser
+22:45:04 -   location: class SkinFix
+22:45:04 - src/minecraft/net/minecraft/mod/SkinFix.java:47: error: cannot find symbol
+22:45:04 -         JSONParser parser = new JSONParser();
+22:45:04 -                                 ^
+22:45:04 - 
+22:45:04 -   symbol:   class JSONParser
+22:45:04 -   location: class SkinFix
+22:45:04 - src/minecraft/net/minecraft/mod/SkinFix.java:48: error: cannot find symbol
+22:45:04 -         object = (JSONObject) parser.parse(jsonString);
+22:45:04 -                   ^
+22:45:04 - 
+22:45:04 -   symbol:   class JSONObject
+22:45:04 -   location: class SkinFix
+22:45:04 - src/minecraft/net/minecraft/mod/SkinFix.java:60: error: cannot find symbol
+22:45:04 -         JSONObject json = parseJSON(jsonString);
+22:45:04 -         ^
+22:45:04 - 
+22:45:04 -   symbol:   class JSONObject
+22:45:04 -   location: class SkinFix
+22:45:04 - src/minecraft/net/minecraft/mod/SkinFix.java:67: error: cannot find symbol
+22:45:04 -         JSONArray propertiesArray = (JSONArray) json.get("properties");
+22:45:04 -         ^
+22:45:04 - 
+22:45:04 -   symbol:   class JSONArray
+22:45:04 -   location: class SkinFix
+22:45:04 - src/minecraft/net/minecraft/mod/SkinFix.java:67: error: cannot find symbol
+22:45:04 -         JSONArray propertiesArray = (JSONArray) json.get("properties");
+22:45:04 -                                      ^
+22:45:04 - 
+22:45:04 -   symbol:   class JSONArray
+22:45:04 -   location: class SkinFix
+22:45:04 - src/minecraft/net/minecraft/mod/SkinFix.java:68: error: cannot find symbol
+22:45:04 -         json = (JSONObject) propertiesArray.get(0);
+22:45:04 -                 ^
+22:45:04 - 
+22:45:04 -   symbol:   class JSONObject
+22:45:04 -   location: class SkinFix
+22:45:04 - src/minecraft/net/minecraft/mod/SkinFix.java:75: error: cannot find symbol
+22:45:04 -         JSONObject textures = (JSONObject) json.get("textures");
+22:45:04 -         ^
+22:45:04 - 
+22:45:04 -   symbol:   class JSONObject
+22:45:04 -   location: class SkinFix
+22:45:04 - src/minecraft/net/minecraft/mod/SkinFix.java:75: error: cannot find symbol
+22:45:04 -         JSONObject textures = (JSONObject) json.get("textures");
+22:45:04 -                                ^
+22:45:04 - 
+22:45:04 -   symbol:   class JSONObject
+22:45:04 -   location: class SkinFix
+22:45:04 - src/minecraft/net/minecraft/mod/SkinFix.java:78: error: cannot find symbol
+22:45:04 -           JSONObject skin = (JSONObject) textures.get("SKIN");
+22:45:04 -           ^
+22:45:04 - 
+22:45:04 -   symbol:   class JSONObject
+22:45:04 -   location: class SkinFix
+22:45:04 - src/minecraft/net/minecraft/mod/SkinFix.java:78: error: cannot find symbol
+22:45:04 -           JSONObject skin = (JSONObject) textures.get("SKIN");
+22:45:04 -                              ^
+22:45:04 - 
+22:45:04 -   symbol:   class JSONObject
+22:45:04 -   location: class SkinFix
+22:45:04 - src/minecraft/net/minecraft/mod/SkinFix.java:85: error: cannot find symbol
+22:45:04 -           JSONObject cape = (JSONObject) textures.get("CAPE");
+22:45:04 -           ^
+22:45:04 - 
+22:45:04 -   symbol:   class JSONObject
+22:45:04 -   location: class SkinFix
+22:45:04 - src/minecraft/net/minecraft/mod/SkinFix.java:85: error: cannot find symbol
+22:45:04 -           JSONObject cape = (JSONObject) textures.get("CAPE");
+22:45:04 -                              ^
+22:45:04 - 
+22:45:04 -   symbol:   class JSONObject
+22:45:04 -   location: class SkinFix
+22:45:04 - 16 errors
+22:45:04 - ==================
+22:45:04 - 
+22:45:04 - !! Can not find server sources, try decompiling !!
+22:59:50 - '"javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "lib:lib/*:jars/bin/minec...' failed : 1
+22:59:50 - 
+22:59:50 - == ERRORS FOUND ==
+22:59:50 - 
+22:59:50 - src/minecraft/net/minecraft/mod/SkinFix.java:43: error: cannot find symbol
+22:59:50 -     public static JSONObject parseJSON(String jsonString) {
+22:59:50 -                   ^
+22:59:50 - 
+22:59:50 -   symbol:   class JSONObject
+22:59:50 -   location: class SkinFix
+22:59:50 - src/minecraft/net/minecraft/mod/SkinFix.java:44: error: cannot find symbol
+22:59:50 -       JSONObject object = null;
+22:59:50 -       ^
+22:59:50 - 
+22:59:50 -   symbol:   class JSONObject
+22:59:50 -   location: class SkinFix
+22:59:50 - src/minecraft/net/minecraft/mod/SkinFix.java:46: error: cannot find symbol
+22:59:50 -         JSONParser parser = new JSONParser();
+22:59:50 -         ^
+22:59:50 - 
+22:59:50 -   symbol:   class JSONParser
+22:59:50 -   location: class SkinFix
+22:59:50 - src/minecraft/net/minecraft/mod/SkinFix.java:46: error: cannot find symbol
+22:59:50 -         JSONParser parser = new JSONParser();
+22:59:50 -                                 ^
+22:59:50 - 
+22:59:50 -   symbol:   class JSONParser
+22:59:50 -   location: class SkinFix
+22:59:50 - src/minecraft/net/minecraft/mod/SkinFix.java:47: error: cannot find symbol
+22:59:50 -         object = (JSONObject) parser.parse(jsonString);
+22:59:50 -                   ^
+22:59:50 - 
+22:59:50 -   symbol:   class JSONObject
+22:59:50 -   location: class SkinFix
+22:59:50 - src/minecraft/net/minecraft/mod/SkinFix.java:59: error: cannot find symbol
+22:59:50 -         JSONObject json = parseJSON(jsonString);
+22:59:50 -         ^
+22:59:50 - 
+22:59:50 -   symbol:   class JSONObject
+22:59:50 -   location: class SkinFix
+22:59:50 - src/minecraft/net/minecraft/mod/SkinFix.java:66: error: cannot find symbol
+22:59:50 -         JSONArray propertiesArray = (JSONArray) json.get("properties");
+22:59:50 -         ^
+22:59:50 - 
+22:59:50 -   symbol:   class JSONArray
+22:59:50 -   location: class SkinFix
+22:59:50 - src/minecraft/net/minecraft/mod/SkinFix.java:66: error: cannot find symbol
+22:59:50 -         JSONArray propertiesArray = (JSONArray) json.get("properties");
+22:59:50 -                                      ^
+22:59:50 - 
+22:59:50 -   symbol:   class JSONArray
+22:59:50 -   location: class SkinFix
+22:59:50 - src/minecraft/net/minecraft/mod/SkinFix.java:67: error: cannot find symbol
+22:59:50 -         json = (JSONObject) propertiesArray.get(0);
+22:59:50 -                 ^
+22:59:50 - 
+22:59:50 -   symbol:   class JSONObject
+22:59:50 -   location: class SkinFix
+22:59:50 - src/minecraft/net/minecraft/mod/SkinFix.java:74: error: cannot find symbol
+22:59:50 -         JSONObject textures = (JSONObject) json.get("textures");
+22:59:50 -         ^
+22:59:50 - 
+22:59:50 -   symbol:   class JSONObject
+22:59:50 -   location: class SkinFix
+22:59:50 - src/minecraft/net/minecraft/mod/SkinFix.java:74: error: cannot find symbol
+22:59:50 -         JSONObject textures = (JSONObject) json.get("textures");
+22:59:50 -                                ^
+22:59:50 - 
+22:59:50 -   symbol:   class JSONObject
+22:59:50 -   location: class SkinFix
+22:59:50 - src/minecraft/net/minecraft/mod/SkinFix.java:77: error: cannot find symbol
+22:59:50 -           JSONObject skin = (JSONObject) textures.get("SKIN");
+22:59:50 -           ^
+22:59:50 - 
+22:59:50 -   symbol:   class JSONObject
+22:59:50 -   location: class SkinFix
+22:59:50 - src/minecraft/net/minecraft/mod/SkinFix.java:77: error: cannot find symbol
+22:59:50 -           JSONObject skin = (JSONObject) textures.get("SKIN");
+22:59:50 -                              ^
+22:59:50 - 
+22:59:50 -   symbol:   class JSONObject
+22:59:50 -   location: class SkinFix
+22:59:50 - src/minecraft/net/minecraft/mod/SkinFix.java:84: error: cannot find symbol
+22:59:50 -           JSONObject cape = (JSONObject) textures.get("CAPE");
+22:59:50 -           ^
+22:59:50 - 
+22:59:50 -   symbol:   class JSONObject
+22:59:50 -   location: class SkinFix
+22:59:50 - src/minecraft/net/minecraft/mod/SkinFix.java:84: error: cannot find symbol
+22:59:50 -           JSONObject cape = (JSONObject) textures.get("CAPE");
+22:59:50 -                              ^
+22:59:50 - 
+22:59:50 -   symbol:   class JSONObject
+22:59:50 -   location: class SkinFix
+22:59:50 - 15 errors
+22:59:50 - ==================
+22:59:50 - 
+22:59:50 - !! Can not find server sources, try decompiling !!
+21:38:27 - !! Can not find client bins, try recompiling !!
+21:38:27 - !! Can not find server md5s !!
+21:53:25 - !! Can not find client bins !!
+21:53:32 - !! Can not find client bins !!
+21:54:01 - '"javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "lib:lib/*:jars/bin/minec...' failed : 1
+21:54:01 - 
+21:54:01 - == ERRORS FOUND ==
+21:54:01 - 
+21:54:01 - src/minecraft/net/minecraft/mod/SkinFix.java:43: error: cannot find symbol
+21:54:01 -     public static JSONObject parseJSON(String jsonString) {
+21:54:01 -                   ^
+21:54:01 - 
+21:54:01 -   symbol:   class JSONObject
+21:54:01 -   location: class SkinFix
+21:54:01 - src/minecraft/net/minecraft/mod/SkinFix.java:44: error: cannot find symbol
+21:54:01 -       JSONObject object = null;
+21:54:01 -       ^
+21:54:01 - 
+21:54:01 -   symbol:   class JSONObject
+21:54:01 -   location: class SkinFix
+21:54:01 - src/minecraft/net/minecraft/mod/SkinFix.java:46: error: cannot find symbol
+21:54:01 -         JSONParser parser = new JSONParser();
+21:54:01 -         ^
+21:54:01 - 
+21:54:01 -   symbol:   class JSONParser
+21:54:01 -   location: class SkinFix
+21:54:01 - src/minecraft/net/minecraft/mod/SkinFix.java:46: error: cannot find symbol
+21:54:01 -         JSONParser parser = new JSONParser();
+21:54:01 -                                 ^
+21:54:01 - 
+21:54:01 -   symbol:   class JSONParser
+21:54:01 -   location: class SkinFix
+21:54:01 - src/minecraft/net/minecraft/mod/SkinFix.java:47: error: cannot find symbol
+21:54:01 -         object = (JSONObject) parser.parse(jsonString);
+21:54:01 -                   ^
+21:54:01 - 
+21:54:01 -   symbol:   class JSONObject
+21:54:01 -   location: class SkinFix
+21:54:01 - src/minecraft/net/minecraft/mod/SkinFix.java:59: error: cannot find symbol
+21:54:01 -         JSONObject json = parseJSON(jsonString);
+21:54:01 -         ^
+21:54:01 - 
+21:54:01 -   symbol:   class JSONObject
+21:54:01 -   location: class SkinFix
+21:54:01 - src/minecraft/net/minecraft/mod/SkinFix.java:66: error: cannot find symbol
+21:54:01 -         JSONArray propertiesArray = (JSONArray) json.get("properties");
+21:54:01 -         ^
+21:54:01 - 
+21:54:01 -   symbol:   class JSONArray
+21:54:01 -   location: class SkinFix
+21:54:01 - src/minecraft/net/minecraft/mod/SkinFix.java:66: error: cannot find symbol
+21:54:01 -         JSONArray propertiesArray = (JSONArray) json.get("properties");
+21:54:01 -                                      ^
+21:54:01 - 
+21:54:01 -   symbol:   class JSONArray
+21:54:01 -   location: class SkinFix
+21:54:01 - src/minecraft/net/minecraft/mod/SkinFix.java:67: error: cannot find symbol
+21:54:01 -         json = (JSONObject) propertiesArray.get(0);
+21:54:01 -                 ^
+21:54:01 - 
+21:54:01 -   symbol:   class JSONObject
+21:54:01 -   location: class SkinFix
+21:54:01 - src/minecraft/net/minecraft/mod/SkinFix.java:74: error: cannot find symbol
+21:54:01 -         JSONObject textures = (JSONObject) json.get("textures");
+21:54:01 -         ^
+21:54:01 - 
+21:54:01 -   symbol:   class JSONObject
+21:54:01 -   location: class SkinFix
+21:54:01 - src/minecraft/net/minecraft/mod/SkinFix.java:74: error: cannot find symbol
+21:54:01 -         JSONObject textures = (JSONObject) json.get("textures");
+21:54:01 -                                ^
+21:54:01 - 
+21:54:01 -   symbol:   class JSONObject
+21:54:01 -   location: class SkinFix
+21:54:01 - src/minecraft/net/minecraft/mod/SkinFix.java:77: error: cannot find symbol
+21:54:01 -           JSONObject skin = (JSONObject) textures.get("SKIN");
+21:54:01 -           ^
+21:54:01 - 
+21:54:01 -   symbol:   class JSONObject
+21:54:01 -   location: class SkinFix
+21:54:01 - src/minecraft/net/minecraft/mod/SkinFix.java:77: error: cannot find symbol
+21:54:01 -           JSONObject skin = (JSONObject) textures.get("SKIN");
+21:54:01 -                              ^
+21:54:01 - 
+21:54:01 -   symbol:   class JSONObject
+21:54:01 -   location: class SkinFix
+21:54:01 - src/minecraft/net/minecraft/mod/SkinFix.java:84: error: cannot find symbol
+21:54:01 -           JSONObject cape = (JSONObject) textures.get("CAPE");
+21:54:01 -           ^
+21:54:01 - 
+21:54:01 -   symbol:   class JSONObject
+21:54:01 -   location: class SkinFix
+21:54:01 - src/minecraft/net/minecraft/mod/SkinFix.java:84: error: cannot find symbol
+21:54:01 -           JSONObject cape = (JSONObject) textures.get("CAPE");
+21:54:01 -                              ^
+21:54:01 - 
+21:54:01 -   symbol:   class JSONObject
+21:54:01 -   location: class SkinFix
+21:54:01 - 15 errors
+21:54:01 - ==================
+21:54:01 - 
+21:54:01 - !! Can not find server sources, try decompiling !!
+21:58:15 - '"javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "lib:lib/*:jars/bin/minec...' failed : 1
+21:58:15 - 
+21:58:15 - == ERRORS FOUND ==
+21:58:15 - 
+21:58:15 - src/minecraft/mod/SkinFix.java:12: error: '.' expected
+21:58:15 - import JSONObject;
+21:58:15 -                  ^
+21:58:15 - 
+21:58:15 - src/minecraft/mod/SkinFix.java:12: error: ';' expected
+21:58:15 - import JSONObject;
+21:58:15 -                   ^
+21:58:15 - 
+21:58:15 - 2 errors
+21:58:15 - ==================
+21:58:15 - 
+21:58:15 - !! Can not find server sources, try decompiling !!
+22:26:31 - '"javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "lib:lib/*:jars/bin/minec...' failed : 1
+22:26:31 - 
+22:26:31 - == ERRORS FOUND ==
+22:26:31 - 
+22:26:31 - src/minecraft/net/minecraft/mod/SkinFix.java:12: error: cannot find symbol
+22:26:31 - import argo.jdom.JSONParser;
+22:26:31 -                 ^
+22:26:31 - 
+22:26:31 -   symbol:   class JSONParser
+22:26:31 -   location: package argo.jdom
+22:26:31 - src/minecraft/net/minecraft/mod/SkinFix.java:13: error: cannot find symbol
+22:26:31 - import argo.jdom.JSONObject;
+22:26:31 -                 ^
+22:26:31 - 
+22:26:31 -   symbol:   class JSONObject
+22:26:31 -   location: package argo.jdom
+22:26:31 - src/minecraft/net/minecraft/mod/SkinFix.java:14: error: cannot find symbol
+22:26:31 - import argo.jdom.JSONArray;
+22:26:31 -                 ^
+22:26:31 - 
+22:26:31 -   symbol:   class JSONArray
+22:26:31 -   location: package argo.jdom
+22:26:31 - src/minecraft/net/minecraft/mod/SkinFix.java:46: error: cannot find symbol
+22:26:31 -     public static JSONObject parseJSON(String jsonString) {
+22:26:31 -                   ^
+22:26:31 - 
+22:26:31 -   symbol:   class JSONObject
+22:26:31 -   location: class SkinFix
+22:26:31 - src/minecraft/net/minecraft/mod/SkinFix.java:47: error: cannot find symbol
+22:26:31 -       JSONObject object = null;
+22:26:31 -       ^
+22:26:31 - 
+22:26:31 -   symbol:   class JSONObject
+22:26:31 -   location: class SkinFix
+22:26:31 - src/minecraft/net/minecraft/mod/SkinFix.java:49: error: cannot find symbol
+22:26:31 -         JSONParser parser = new JSONParser();
+22:26:31 -         ^
+22:26:31 - 
+22:26:31 -   symbol:   class JSONParser
+22:26:31 -   location: class SkinFix
+22:26:31 - src/minecraft/net/minecraft/mod/SkinFix.java:49: error: cannot find symbol
+22:26:31 -         JSONParser parser = new JSONParser();
+22:26:31 -                                 ^
+22:26:31 - 
+22:26:31 -   symbol:   class JSONParser
+22:26:31 -   location: class SkinFix
+22:26:31 - src/minecraft/net/minecraft/mod/SkinFix.java:50: error: cannot find symbol
+22:26:31 -         object = (JSONObject) parser.parse(jsonString);
+22:26:31 -                   ^
+22:26:31 - 
+22:26:31 -   symbol:   class JSONObject
+22:26:31 -   location: class SkinFix
+22:26:31 - src/minecraft/net/minecraft/mod/SkinFix.java:62: error: cannot find symbol
+22:26:31 -         JSONObject json = parseJSON(jsonString);
+22:26:31 -         ^
+22:26:31 - 
+22:26:31 -   symbol:   class JSONObject
+22:26:31 -   location: class SkinFix
+22:26:31 - src/minecraft/net/minecraft/mod/SkinFix.java:69: error: cannot find symbol
+22:26:31 -         JSONArray propertiesArray = (JSONArray) json.get("properties");
+22:26:31 -         ^
+22:26:31 - 
+22:26:31 -   symbol:   class JSONArray
+22:26:31 -   location: class SkinFix
+22:26:31 - src/minecraft/net/minecraft/mod/SkinFix.java:69: error: cannot find symbol
+22:26:31 -         JSONArray propertiesArray = (JSONArray) json.get("properties");
+22:26:31 -                                      ^
+22:26:31 - 
+22:26:31 -   symbol:   class JSONArray
+22:26:31 -   location: class SkinFix
+22:26:31 - src/minecraft/net/minecraft/mod/SkinFix.java:70: error: cannot find symbol
+22:26:31 -         json = (JSONObject) propertiesArray.get(0);
+22:26:31 -                 ^
+22:26:31 - 
+22:26:31 -   symbol:   class JSONObject
+22:26:31 -   location: class SkinFix
+22:26:31 - src/minecraft/net/minecraft/mod/SkinFix.java:77: error: cannot find symbol
+22:26:31 -         JSONObject textures = (JSONObject) json.get("textures");
+22:26:31 -         ^
+22:26:31 - 
+22:26:31 -   symbol:   class JSONObject
+22:26:31 -   location: class SkinFix
+22:26:31 - src/minecraft/net/minecraft/mod/SkinFix.java:77: error: cannot find symbol
+22:26:31 -         JSONObject textures = (JSONObject) json.get("textures");
+22:26:31 -                                ^
+22:26:31 - 
+22:26:31 -   symbol:   class JSONObject
+22:26:31 -   location: class SkinFix
+22:26:31 - src/minecraft/net/minecraft/mod/SkinFix.java:80: error: cannot find symbol
+22:26:31 -           JSONObject skin = (JSONObject) textures.get("SKIN");
+22:26:31 -           ^
+22:26:31 - 
+22:26:31 -   symbol:   class JSONObject
+22:26:31 -   location: class SkinFix
+22:26:31 - src/minecraft/net/minecraft/mod/SkinFix.java:80: error: cannot find symbol
+22:26:31 -           JSONObject skin = (JSONObject) textures.get("SKIN");
+22:26:31 -                              ^
+22:26:31 - 
+22:26:31 -   symbol:   class JSONObject
+22:26:31 -   location: class SkinFix
+22:26:31 - src/minecraft/net/minecraft/mod/SkinFix.java:87: error: cannot find symbol
+22:26:31 -           JSONObject cape = (JSONObject) textures.get("CAPE");
+22:26:31 -           ^
+22:26:31 - 
+22:26:31 -   symbol:   class JSONObject
+22:26:31 -   location: class SkinFix
+22:26:31 - src/minecraft/net/minecraft/mod/SkinFix.java:87: error: cannot find symbol
+22:26:31 -           JSONObject cape = (JSONObject) textures.get("CAPE");
+22:26:31 -                              ^
+22:26:31 - 
+22:26:31 -   symbol:   class JSONObject
+22:26:31 -   location: class SkinFix
+22:26:31 - 18 errors
+22:26:31 - ==================
+22:26:31 - 
+22:26:31 - !! Can not find server sources, try decompiling !!
+22:27:14 - '"javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "lib:lib/*:jars/bin/minec...' failed : 1
+22:27:14 - 
+22:27:14 - == ERRORS FOUND ==
+22:27:14 - 
+22:27:14 - src/minecraft/net/minecraft/mod/SkinFix.java:12: error: cannot find symbol
+22:27:14 - import argo.jdom.JSONParser;
+22:27:14 -                 ^
+22:27:14 - 
+22:27:14 -   symbol:   class JSONParser
+22:27:14 -   location: package argo.jdom
+22:27:14 - src/minecraft/net/minecraft/mod/SkinFix.java:13: error: cannot find symbol
+22:27:14 - import argo.jdom.JSONObject;
+22:27:14 -                 ^
+22:27:14 - 
+22:27:14 -   symbol:   class JSONObject
+22:27:14 -   location: package argo.jdom
+22:27:14 - src/minecraft/net/minecraft/mod/SkinFix.java:14: error: cannot find symbol
+22:27:14 - import argo.jdom.JSONArray;
+22:27:14 -                 ^
+22:27:14 - 
+22:27:14 -   symbol:   class JSONArray
+22:27:14 -   location: package argo.jdom
+22:27:14 - src/minecraft/net/minecraft/mod/SkinFix.java:46: error: cannot find symbol
+22:27:14 -     public static JSONObject parseJSON(String jsonString) {
+22:27:14 -                   ^
+22:27:14 - 
+22:27:14 -   symbol:   class JSONObject
+22:27:14 -   location: class SkinFix
+22:27:14 - src/minecraft/net/minecraft/mod/SkinFix.java:47: error: cannot find symbol
+22:27:14 -       JSONObject object = null;
+22:27:14 -       ^
+22:27:14 - 
+22:27:14 -   symbol:   class JSONObject
+22:27:14 -   location: class SkinFix
+22:27:14 - src/minecraft/net/minecraft/mod/SkinFix.java:49: error: cannot find symbol
+22:27:14 -         JSONParser parser = new JSONParser();
+22:27:14 -         ^
+22:27:14 - 
+22:27:14 -   symbol:   class JSONParser
+22:27:14 -   location: class SkinFix
+22:27:14 - src/minecraft/net/minecraft/mod/SkinFix.java:49: error: cannot find symbol
+22:27:14 -         JSONParser parser = new JSONParser();
+22:27:14 -                                 ^
+22:27:14 - 
+22:27:14 -   symbol:   class JSONParser
+22:27:14 -   location: class SkinFix
+22:27:14 - src/minecraft/net/minecraft/mod/SkinFix.java:50: error: cannot find symbol
+22:27:14 -         object = (JSONObject) parser.parse(jsonString);
+22:27:14 -                   ^
+22:27:14 - 
+22:27:14 -   symbol:   class JSONObject
+22:27:14 -   location: class SkinFix
+22:27:14 - src/minecraft/net/minecraft/mod/SkinFix.java:62: error: cannot find symbol
+22:27:14 -         JSONObject json = parseJSON(jsonString);
+22:27:14 -         ^
+22:27:14 - 
+22:27:14 -   symbol:   class JSONObject
+22:27:14 -   location: class SkinFix
+22:27:14 - src/minecraft/net/minecraft/mod/SkinFix.java:69: error: cannot find symbol
+22:27:14 -         JSONArray propertiesArray = (JSONArray) json.get("properties");
+22:27:14 -         ^
+22:27:14 - 
+22:27:14 -   symbol:   class JSONArray
+22:27:14 -   location: class SkinFix
+22:27:14 - src/minecraft/net/minecraft/mod/SkinFix.java:69: error: cannot find symbol
+22:27:14 -         JSONArray propertiesArray = (JSONArray) json.get("properties");
+22:27:14 -                                      ^
+22:27:14 - 
+22:27:14 -   symbol:   class JSONArray
+22:27:14 -   location: class SkinFix
+22:27:14 - src/minecraft/net/minecraft/mod/SkinFix.java:70: error: cannot find symbol
+22:27:14 -         json = (JSONObject) propertiesArray.get(0);
+22:27:14 -                 ^
+22:27:14 - 
+22:27:14 -   symbol:   class JSONObject
+22:27:14 -   location: class SkinFix
+22:27:14 - src/minecraft/net/minecraft/mod/SkinFix.java:77: error: cannot find symbol
+22:27:14 -         JSONObject textures = (JSONObject) json.get("textures");
+22:27:14 -         ^
+22:27:14 - 
+22:27:14 -   symbol:   class JSONObject
+22:27:14 -   location: class SkinFix
+22:27:14 - src/minecraft/net/minecraft/mod/SkinFix.java:77: error: cannot find symbol
+22:27:14 -         JSONObject textures = (JSONObject) json.get("textures");
+22:27:14 -                                ^
+22:27:14 - 
+22:27:14 -   symbol:   class JSONObject
+22:27:14 -   location: class SkinFix
+22:27:14 - src/minecraft/net/minecraft/mod/SkinFix.java:80: error: cannot find symbol
+22:27:14 -           JSONObject skin = (JSONObject) textures.get("SKIN");
+22:27:14 -           ^
+22:27:14 - 
+22:27:14 -   symbol:   class JSONObject
+22:27:14 -   location: class SkinFix
+22:27:14 - src/minecraft/net/minecraft/mod/SkinFix.java:80: error: cannot find symbol
+22:27:14 -           JSONObject skin = (JSONObject) textures.get("SKIN");
+22:27:14 -                              ^
+22:27:14 - 
+22:27:14 -   symbol:   class JSONObject
+22:27:14 -   location: class SkinFix
+22:27:14 - src/minecraft/net/minecraft/mod/SkinFix.java:87: error: cannot find symbol
+22:27:14 -           JSONObject cape = (JSONObject) textures.get("CAPE");
+22:27:14 -           ^
+22:27:14 - 
+22:27:14 -   symbol:   class JSONObject
+22:27:14 -   location: class SkinFix
+22:27:14 - src/minecraft/net/minecraft/mod/SkinFix.java:87: error: cannot find symbol
+22:27:14 -           JSONObject cape = (JSONObject) textures.get("CAPE");
+22:27:14 -                              ^
+22:27:14 - 
+22:27:14 -   symbol:   class JSONObject
+22:27:14 -   location: class SkinFix
+22:27:14 - 18 errors
+22:27:14 - ==================
+22:27:14 - 
+22:27:14 - !! Can not find server sources, try decompiling !!
+23:48:11 - !! Can not find client bins !!
+23:48:28 - '"javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "lib:lib/*:jars/bin/minec...' failed : 1
+23:48:28 - 
+23:48:28 - == ERRORS FOUND ==
+23:48:28 - 
+23:48:28 - src/minecraft/net/minecraft/src/EntityClientPlayerMP.java:30: error: unreported exception MalformedURLException; must be caught or declared to be thrown
+23:48:28 -         super(par1Minecraft, par2World, par3Session, 0);
+23:48:28 -              ^
+23:48:28 - 
+23:48:28 - src/minecraft/net/minecraft/mod/SkinFix.java:46: error: cannot find symbol
+23:48:28 -         JSONParser parser = new JSONParser();
+23:48:28 -         ^
+23:48:28 - 
+23:48:28 -   symbol:   class JSONParser
+23:48:28 -   location: class SkinFix
+23:48:28 - src/minecraft/net/minecraft/mod/SkinFix.java:46: error: cannot find symbol
+23:48:28 -         JSONParser parser = new JSONParser();
+23:48:28 -                                 ^
+23:48:28 - 
+23:48:28 -   symbol:   class JSONParser
+23:48:28 -   location: class SkinFix
+23:48:28 - 3 errors
+23:48:28 - ==================
+23:48:28 - 
+23:48:28 - !! Can not find server sources, try decompiling !!
+23:49:37 - '"javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "lib:lib/*:jars/bin/minec...' failed : 1
+23:49:37 - 
+23:49:37 - == ERRORS FOUND ==
+23:49:37 - 
+23:49:37 - src/minecraft/net/minecraft/src/EntityClientPlayerMP.java:30: error: unreported exception MalformedURLException; must be caught or declared to be thrown
+23:49:37 -         super(par1Minecraft, par2World, par3Session, 0);
+23:49:37 -              ^
+23:49:37 - 
+23:49:37 - 1 error
+23:49:37 - ==================
+23:49:37 - 
+23:49:37 - !! Can not find server sources, try decompiling !!
+23:53:18 - '"javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "lib:lib/*:jars/bin/minec...' failed : 1
+23:53:18 - 
+23:53:18 - == ERRORS FOUND ==
+23:53:18 - 
+23:53:18 - src/minecraft/net/minecraft/mod/SkinFix.java:97: error: exception MalformedURLException is never thrown in body of corresponding try statement
+23:53:18 -       } catch (MalformedURLException e) {
+23:53:18 -         ^
+23:53:18 - 
+23:53:18 - src/minecraft/net/minecraft/mod/SkinFix.java:101: error: missing return statement
+23:53:18 -     }
+23:53:18 -     ^
+23:53:18 - 
+23:53:18 - 2 errors
+23:53:18 - ==================
+23:53:18 - 
+23:53:18 - !! Can not find server sources, try decompiling !!
+23:56:14 - !! Can not find server sources, try decompiling !!
+23:59:29 - !! Can not find server sources, try decompiling !!
+00:00:18 - '"java" -Xincgc -Xms1024M -Xmx1024M -cp "../bin/minecraft:../lib:../lib/*:../jars/bin/minecraft.jar:....' failed : 1
+00:00:18 - FATAL ERROR
+Traceback (most recent call last):
+  File "runtime/startclient.py", line 30, in startclient
+  File "/home/jacobweber/Documents/code-projects/minecraft-classic-modding/mc1.4.7-WakingUpMod/1.4.7/mcp726a/runtime/commands.py", line 1079, in startclient
+    self.runmc(forkcmd)
+  File "/home/jacobweber/Documents/code-projects/minecraft-classic-modding/mc1.4.7-WakingUpMod/1.4.7/mcp726a/runtime/commands.py", line 1119, in runmc
+    raise CalledProcessError(process.returncode, forkcmd, output)
+CalledProcessError: Command '"java" -Xincgc -Xms1024M -Xmx1024M -cp "../bin/minecraft:../lib:../lib/*:../jars/bin/minecraft.jar:../jars/bin/jinput.jar:../jars/bin/lwjgl.jar:../jars/bin/lwjgl_util.jar" -Djava.library.path=../jars/bin/natives Start' returned non-zero exit status 1
+00:20:17 - !! Can not find server sources, try decompiling !!
+00:38:37 - '"javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "lib:lib/*:jars/bin/minec...' failed : 1
+00:38:37 - 
+00:38:37 - == ERRORS FOUND ==
+00:38:37 - 
+00:38:37 - src/minecraft/net/minecraft/mod/SkinFix.java:66: error: cannot find symbol
+00:38:37 -       urlString = "https://sessionserver.mojang.com/session/minecraft/profile/" + uuid;
+00:38:37 -                                                                                   ^
+00:38:37 - 
+00:38:37 -   symbol:   variable uuid
+00:38:37 -   location: class SkinFix
+00:38:37 - 1 error
+00:38:37 - ==================
+00:38:37 - 
+00:38:37 - !! Can not find server sources, try decompiling !!
+00:39:23 - '"javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "lib:lib/*:jars/bin/minec...' failed : 1
+00:39:23 - 
+00:39:23 - == ERRORS FOUND ==
+00:39:23 - 
+00:39:23 - src/minecraft/net/minecraft/mod/SkinFix.java:67: error: variable uuid might not have been initialized
+00:39:23 -       urlString = "https://sessionserver.mojang.com/session/minecraft/profile/" + uuid;
+00:39:23 -                                                                                   ^
+00:39:23 - 
+00:39:23 - 1 error
+00:39:23 - ==================
+00:39:23 - 
+00:39:23 - !! Can not find server sources, try decompiling !!
+00:39:58 - !! Can not find server sources, try decompiling !!
+00:40:23 - '"java" -Xincgc -Xms1024M -Xmx1024M -cp "../bin/minecraft:../lib:../lib/*:../jars/bin/minecraft.jar:....' failed : 1
+00:40:23 - FATAL ERROR
+Traceback (most recent call last):
+  File "runtime/startclient.py", line 30, in startclient
+  File "/home/jacobweber/Documents/code-projects/minecraft-classic-modding/mc1.4.7-WakingUpMod/1.4.7/mcp726a/runtime/commands.py", line 1079, in startclient
+    self.runmc(forkcmd)
+  File "/home/jacobweber/Documents/code-projects/minecraft-classic-modding/mc1.4.7-WakingUpMod/1.4.7/mcp726a/runtime/commands.py", line 1119, in runmc
+    raise CalledProcessError(process.returncode, forkcmd, output)
+CalledProcessError: Command '"java" -Xincgc -Xms1024M -Xmx1024M -cp "../bin/minecraft:../lib:../lib/*:../jars/bin/minecraft.jar:../jars/bin/jinput.jar:../jars/bin/lwjgl.jar:../jars/bin/lwjgl_util.jar" -Djava.library.path=../jars/bin/natives Start' returned non-zero exit status 1
+00:41:11 - !! Can not find server sources, try decompiling !!
+00:52:55 - !! Can not find server sources, try decompiling !!
+00:53:34 - !! Can not find server sources, try decompiling !!
+00:56:32 - !! Can not find server sources, try decompiling !!
+00:57:26 - !! Can not find server sources, try decompiling !!
+00:58:39 - !! Can not find server sources, try decompiling !!

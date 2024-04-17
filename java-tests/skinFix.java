@@ -2,10 +2,11 @@
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 import java.net.HttpURLConnection;
 import java.io.InputStream;
-
+import javax.xml.bind.DatatypeConverter;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -51,38 +52,47 @@ public class skinFix {
       return object;
     }
 
-    public static void main(String[] args) throws MalformedURLException {
-        System.out.printf("Give a username: ");
-        Scanner in = new Scanner(System.in);
-        String user_name = in.nextLine();
-        in.close();
-        String urlString = "https://api.mojang.com/users/profiles/minecraft/" + user_name;
-
-        System.out.println(urlString);
-
+    public static String skinGet(String username, String urlType) throws MalformedURLException {
+  
+        String urlString = "https://api.mojang.com/users/profiles/minecraft/" + username;
+        // System.out.println(urlString);
         String jsonString = jsonGetRequest(urlString);
-
-        System.out.println("before parsing: "+ jsonString);
         JSONObject json = parseJSON(jsonString);
-    
+  
         String uuid = (String) json.get("id");
-        System.out.println("UUID: " + uuid);
-
         urlString = "https://sessionserver.mojang.com/session/minecraft/profile/" + uuid;
-        System.out.println(jsonGetRequest(urlString));
-
+        // System.out.println(jsonGetRequest(urlString));
         jsonString = jsonGetRequest(urlString);
-
         json = parseJSON(jsonString);
-
         JSONArray propertiesArray = (JSONArray) json.get("properties");
         json = (JSONObject) propertiesArray.get(0);
-
         String base64 = (String) json.get("value");
+        // System.out.println(base64);
+        byte[] decoded = DatatypeConverter.parseBase64Binary(base64);
+        String skinLinkString = new String(decoded, StandardCharsets.UTF_8);
+        // System.out.println(skinLinkString);
+        json = parseJSON(skinLinkString);
+        JSONObject textures = (JSONObject) json.get("textures");
+        String skinUrl;
+        try {
+          JSONObject skin = (JSONObject) textures.get("SKIN");
+          skinUrl = (String) skin.get("url");
+        } catch (Exception e) {
+          skinUrl = null;
+        }
+        String capeUrl;
+        try {
+          JSONObject cape = (JSONObject) textures.get("CAPE");
+          capeUrl = (String) cape.get("url");
+        } catch (Exception e) {
+          capeUrl = null;
+        }
 
-        System.out.println(base64);
-        
-       
-
+        if (urlType.equals("skin"))
+          return skinUrl;
+        if (urlType.equals("cape"))
+          return capeUrl;
+        else
+          return null;
     }
 }
