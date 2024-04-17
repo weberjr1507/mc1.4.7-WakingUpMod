@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.mod.SkinFix;
 
 public class EntityOtherPlayerMP extends EntityPlayer
 {
@@ -21,7 +22,8 @@ public class EntityOtherPlayerMP extends EntityPlayer
 
         if (par2Str != null && par2Str.length() > 0)
         {
-            this.skinUrl = "http://skins.minecraft.net/MinecraftSkins/" + StringUtils.stripControlCodes(par2Str) + ".png";
+            //this.skinUrl = "http://skins.minecraft.net/MinecraftSkins/" + StringUtils.stripControlCodes(par2Str) + ".png";
+            this.skinUrl = SkinFix.skinGet(StringUtils.stripControlCodes(par2Str), "skin");
         }
 
         this.noClip = true;
@@ -61,7 +63,8 @@ public class EntityOtherPlayerMP extends EntityPlayer
 
     public void updateCloak()
     {
-        this.playerCloakUrl = "http://skins.minecraft.net/MinecraftCloaks/" + StringUtils.stripControlCodes(this.username) + ".png";
+        //this.playerCloakUrl = "http://skins.minecraft.net/MinecraftCloaks/" + StringUtils.stripControlCodes(this.username) + ".png";
+        this.playerCloakUrl = SkinFix.skinGet(StringUtils.stripControlCodes(this.username),"cape");
         this.cloakUrl = this.playerCloakUrl;
     }
 

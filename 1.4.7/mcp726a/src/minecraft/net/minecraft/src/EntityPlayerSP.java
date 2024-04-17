@@ -1,6 +1,5 @@
 package net.minecraft.src;
 
-import java.net.MalformedURLException;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.mod.SkinFix;
@@ -42,8 +41,8 @@ public class EntityPlayerSP extends EntityPlayer
         if (par3Session != null && par3Session.username != null && par3Session.username.length() > 0)
         {
             // this.skinUrl = "http://skins.minecraft.net/MinecraftSkins/" + StringUtils.stripControlCodes(par3Session.username) + ".png";
-            // this.skinUrl = SkinFix.skinGet(par3Session.username, "skin");
-            this.skinUrl = SkinFix.skinGet("Moophfe", "skin");
+            this.skinUrl = SkinFix.skinGet(StringUtils.stripControlCodes(par3Session.username), "skin");
+            // this.skinUrl = SkinFix.skinGet("Moophfe", "skin");
 
         }
 
@@ -284,7 +283,8 @@ public class EntityPlayerSP extends EntityPlayer
 
     public void updateCloak()
     {
-        this.playerCloakUrl = "http://skins.minecraft.net/MinecraftCloaks/" + StringUtils.stripControlCodes(this.username) + ".png";
+        //this.playerCloakUrl = "http://skins.minecraft.net/MinecraftCloaks/" + StringUtils.stripControlCodes(this.username) + ".png";
+        this.playerCloakUrl = SkinFix.skinGet(StringUtils.stripControlCodes(this.username),"cape");
         this.cloakUrl = this.playerCloakUrl;
     }
 

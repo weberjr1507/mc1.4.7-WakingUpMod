@@ -75,22 +75,31 @@ public class SkinFix {
       } catch (Exception e) {
         e.getStackTrace();
       }
-      
-      String base64 = (String) json.get("value");
+      String base64 = "";
+      try {
+      base64 = (String) json.get("value");
+      } catch (Exception e) {
+        e.getStackTrace();
+      }
       // System.out.println(base64);
       byte[] decoded = DatatypeConverter.parseBase64Binary(base64);
       String skinLinkString = new String(decoded, StandardCharsets.UTF_8);
       // System.out.println(skinLinkString);
       json = parseJSON(skinLinkString);
-      JSONObject textures = (JSONObject) json.get("textures");
-      String skinUrl;
+      JSONObject textures = null;
+      try {
+        textures = (JSONObject) json.get("textures");
+      } catch (Exception e) {
+        e.getStackTrace();
+      }
+      String skinUrl = null;
       try {
         JSONObject skin = (JSONObject) textures.get("SKIN");
         skinUrl = (String) skin.get("url");
       } catch (Exception e) {
         skinUrl = null;
       }
-      String capeUrl;
+      String capeUrl = null;
       try {
         JSONObject cape = (JSONObject) textures.get("CAPE");
         capeUrl = (String) cape.get("url");

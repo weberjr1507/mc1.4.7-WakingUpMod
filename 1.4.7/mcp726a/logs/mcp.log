@@ -10520,3 +10520,492 @@ Artistic Style Version 2.02.1
 00:59:31 - SoundSystem shutting down...
 00:59:31 -     Author: Paul Lamb, www.paulscode.com
 00:59:31 - 
+01:13:34 - == MCP 7.26 (data: 7.26a, client: 1.4.7, server: 1.4.7) ==
+01:13:34 - OS : linux2
+01:13:34 - # VERSION INFO
+01:13:34 - python: 2.7.18 (default, Dec 22 2023, 00:00:00) 
+[GCC 13.2.1 20231205 (Red Hat 13.2.1-6)]
+01:13:34 - platform: Linux-6.8.4-200.fc39.x86_64-x86_64-with-fedora-39-Thirty_Nine
+01:13:34 - # java: '"java" -version'
+01:13:34 - java version "1.8.0_401"
+Java(TM) SE Runtime Environment (build 1.8.0_401-b10)
+Java HotSpot(TM) Server VM (build 25.401-b10, mixed mode)
+01:13:34 - # javac: '"javac" -version'
+01:13:34 - javac 1.7.0_80
+01:13:34 - # javac runtime: '"javac" -J-version'
+01:13:34 - java version "1.7.0_80"
+Java(TM) SE Runtime Environment (build 1.7.0_80-b15)
+Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode)
+01:13:34 - # retroguard: 'runtime/bin/retroguard.jar --version'
+01:13:34 - RetroGuard MCP v3.6.5
+based on RetroGuard v2.3.1 by Retrologic Systems - www.retrologic.com
+01:13:34 - # mcinjector: 'runtime/bin/mcinjector.jar --version'
+01:13:34 - MCInjector v2.8 by Searge, LexManos, Fesh0r
+01:13:34 - # patch: 'patch --version'
+01:13:34 - GNU patch 2.7.6
+01:13:34 - # wine: 'wine --version'
+01:13:34 - wine-9.1 (Staging)
+01:13:34 - # astyle: 'astyle --version'
+01:13:34 - # astyle: 'wine runtime/bin/astyle.exe --version'
+01:13:39 - 002c:fixme:winediag:loader_init wine-staging 9.1 is a testing version containing experimental patches.
+002c:fixme:winediag:loader_init Please mention your exact version when filing bug reports on winehq.org.
+0128:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+Artistic Style Version 2.02.1
+01:13:39 - # jadretro: 'runtime/bin/jadretro.jar'
+01:13:39 - Error: Unable to access jarfile runtime/bin/jadretro.jar
+01:13:39 - # jad: 'wine runtime/bin/jad.exe'
+01:13:43 - 002c:fixme:winediag:loader_init wine-staging 9.1 is a testing version containing experimental patches.
+01:13:43 - # fernflower: 'runtime/bin/fernflower.jar'
+01:13:43 - Usage: java ConsoleDecompiler ( -<option>=<value>)* (<source>)+ <destination>
+01:13:43 - # found wine, ff, ff patches, srgs, name csvs, doc csvs, param csvs, renumber csv, astyle, astyle config
+01:13:43 - == Recompiling client ==
+01:13:43 - > Cleaning bin
+01:13:43 - > Recompiling
+01:13:43 - runcmd: '"javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "lib:lib/*:jars/bin/minecraft.jar:jars/bin/jinput.jar:jars/bin/lwjgl.jar:jars/bin/lwjgl_util.jar" -sourcepath src/minecraft -d bin/minecraft src/minecraft/Start.java src/minecraft/org/bouncycastle/util/Strings.java src/minecraft/org/bouncycastle/jcajce/provider/config/ProviderConfigurationPermission.java src/minecraft/org/bouncycastle/jcajce/provider/config/ProviderConfiguration.java src/minecraft/org/bouncycastle/jcajce/...'
+01:13:43 - shlex: ['javac', '-Xlint:-options', '-deprecation', '-g', '-source', '1.6', '-target', '1.6', '-classpath', 'lib:lib/*:jars/bin/minecraft.jar:jars/bin/jinput.jar:jars/bin/lwjgl.jar:jars/bin/lwjgl_util.jar', '-sourcepath', 'src/minecraft', '-d', 'bin/minecraft', 'src/minecraft/Start.java', 'src/minecraft/org/bouncycastle/util/Strings.java', 'src/minecraft/org/bouncycastle/jcajce/provider/config/ProviderConfigurationPermission.java', 'src/minecraft/org/bouncycastle/jcajce/provider/config/ProviderConfigur...
+01:13:47 - Note: Some input files use unchecked or unsafe operations.
+01:13:47 - Note: Recompile with -Xlint:unchecked for details.
+01:13:47 - - Done in 4.05 seconds
+01:13:47 - !! Can not find server sources, try decompiling !!
+01:13:51 - == MCP 7.26 (data: 7.26a, client: 1.4.7, server: 1.4.7) ==
+01:13:51 - OS : linux2
+01:13:51 - runmc: '"java" -Xincgc -Xms1024M -Xmx1024M -cp "../bin/minecraft:../lib:../lib/*:../jars/bin/minecraft.jar:../jars/bin/jinput.jar:../jars/bin/lwjgl.jar:../jars/bin/lwjgl_util.jar" -Djava.library.path=../jars/bin/natives Start'
+01:13:51 - shlex: ['java', '-Xincgc', '-Xms1024M', '-Xmx1024M', '-cp', '../bin/minecraft:../lib:../lib/*:../jars/bin/minecraft.jar:../jars/bin/jinput.jar:../jars/bin/lwjgl.jar:../jars/bin/lwjgl_util.jar', '-Djava.library.path=../jars/bin/natives', 'Start']
+01:13:51 - Java HotSpot(TM) Server VM warning: Using incremental CMS is deprecated and will likely be removed in a future release
+01:13:52 - 27 achievements
+01:13:52 - 210 recipes
+01:13:52 - Setting user: Player938, -
+01:13:52 - Client asked for parameter: server
+01:13:52 - LWJGL Version: 2.9.4
+01:13:52 - 
+01:13:52 - Starting up SoundSystem...
+01:13:52 - Initializing LWJGL OpenAL
+01:13:52 -     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+01:13:52 - OpenAL initialized.
+01:13:53 - 
+01:13:53 - Failed to add READ_ME_I_AM_VERY_IMPORTANT
+01:13:53 - Failed to add pack.mcmeta
+01:13:53 - java.io.FileNotFoundException: http://s3.amazonaws.com/MinecraftResources/
+01:13:53 - 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1910)
+01:13:53 - 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
+01:13:53 - 	at java.net.URL.openStream(URL.java:1092)
+01:13:53 - 	at net.minecraft.src.ThreadDownloadResources.run(ThreadDownloadResources.java:48)
+01:13:54 - Apr 17, 2024 1:13:54 AM net.minecraft.src.IntegratedServer startServer
+01:13:54 - INFO: Starting integrated minecraft server version 1.4.7
+01:13:54 - Apr 17, 2024 1:13:54 AM net.minecraft.src.IntegratedServer startServer
+01:13:54 - INFO: Generating keypair
+01:13:55 - Apr 17, 2024 1:13:55 AM net.minecraft.server.MinecraftServer initialWorldChunkLoad
+01:13:55 - INFO: Preparing start region for level 0
+01:13:55 - Apr 17, 2024 1:13:55 AM net.minecraft.src.ServerConfigurationManager initializeConnectionToPlayer
+01:13:55 - INFO: Player938[/127.0.0.1:0] logged in with entity id 402 at (-192.53594955722707, 72.0, 310.35052588222936)
+01:13:55 - java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/Player938
+01:13:55 - 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1910)
+01:13:55 - 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
+01:13:55 - 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+01:13:55 - 	at net.minecraft.mod.SkinFix.jsonGetRequest(SkinFix.java:36)
+01:13:55 - 	at net.minecraft.mod.SkinFix.skinGet(SkinFix.java:58)
+01:13:55 - 	at net.minecraft.src.EntityPlayerSP.<init>(EntityPlayerSP.java:44)
+01:13:55 - 	at net.minecraft.src.EntityClientPlayerMP.<init>(EntityClientPlayerMP.java:30)
+01:13:55 - 	at net.minecraft.src.PlayerControllerMP.func_78754_a(PlayerControllerMP.java:393)
+01:13:55 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:2061)
+01:13:55 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:1991)
+01:13:55 - 	at net.minecraft.src.NetClientHandler.handleLogin(NetClientHandler.java:158)
+01:13:55 - 	at net.minecraft.src.Packet1Login.processPacket(Packet1Login.java:91)
+01:13:55 - 	at net.minecraft.src.MemoryConnection.processReadPackets(MemoryConnection.java:73)
+01:13:55 - 	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1898)
+01:13:55 - 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:843)
+01:13:55 - 	at net.minecraft.client.Minecraft.run(Minecraft.java:768)
+01:13:55 - 	at java.lang.Thread.run(Thread.java:750)
+01:13:55 - java.lang.NullPointerException
+01:13:55 - 	at java.io.StringReader.<init>(StringReader.java:50)
+01:13:55 - 	at org.json.simple.parser.JSONParser.parse(JSONParser.java:55)
+01:13:55 - 	at org.json.simple.parser.JSONParser.parse(JSONParser.java:51)
+01:13:55 - 	at net.minecraft.mod.SkinFix.parseJSON(SkinFix.java:48)
+01:13:55 - 	at net.minecraft.mod.SkinFix.skinGet(SkinFix.java:59)
+01:13:55 - 	at net.minecraft.src.EntityPlayerSP.<init>(EntityPlayerSP.java:44)
+01:13:55 - 	at net.minecraft.src.EntityClientPlayerMP.<init>(EntityClientPlayerMP.java:30)
+01:13:55 - 	at net.minecraft.src.PlayerControllerMP.func_78754_a(PlayerControllerMP.java:393)
+01:13:55 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:2061)
+01:13:55 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:1991)
+01:13:55 - 	at net.minecraft.src.NetClientHandler.handleLogin(NetClientHandler.java:158)
+01:13:55 - 	at net.minecraft.src.Packet1Login.processPacket(Packet1Login.java:91)
+01:13:55 - 	at net.minecraft.src.MemoryConnection.processReadPackets(MemoryConnection.java:73)
+01:13:55 - 	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1898)
+01:13:55 - 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:843)
+01:13:55 - 	at net.minecraft.client.Minecraft.run(Minecraft.java:768)
+01:13:55 - 	at java.lang.Thread.run(Thread.java:750)
+01:13:56 - java.io.FileNotFoundException: https://sessionserver.mojang.com/session/minecraft/profile/
+01:13:56 - 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1910)
+01:13:56 - 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
+01:13:56 - 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+01:13:56 - 	at net.minecraft.mod.SkinFix.jsonGetRequest(SkinFix.java:36)
+01:13:56 - 	at net.minecraft.mod.SkinFix.skinGet(SkinFix.java:69)
+01:13:56 - 	at net.minecraft.src.EntityPlayerSP.<init>(EntityPlayerSP.java:44)
+01:13:56 - 	at net.minecraft.src.EntityClientPlayerMP.<init>(EntityClientPlayerMP.java:30)
+01:13:56 - 	at net.minecraft.src.PlayerControllerMP.func_78754_a(PlayerControllerMP.java:393)
+01:13:56 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:2061)
+01:13:56 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:1991)
+01:13:56 - 	at net.minecraft.src.NetClientHandler.handleLogin(NetClientHandler.java:158)
+01:13:56 - 	at net.minecraft.src.Packet1Login.processPacket(Packet1Login.java:91)
+01:13:56 - 	at net.minecraft.src.MemoryConnection.processReadPackets(MemoryConnection.java:73)
+01:13:56 - 	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1898)
+01:13:56 - 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:843)
+01:13:56 - 	at net.minecraft.client.Minecraft.run(Minecraft.java:768)
+01:13:56 - 	at java.lang.Thread.run(Thread.java:750)
+01:13:56 - java.lang.NullPointerException
+01:13:56 - 	at java.io.StringReader.<init>(StringReader.java:50)
+01:13:56 - 	at org.json.simple.parser.JSONParser.parse(JSONParser.java:55)
+01:13:56 - 	at org.json.simple.parser.JSONParser.parse(JSONParser.java:51)
+01:13:56 - 	at net.minecraft.mod.SkinFix.parseJSON(SkinFix.java:48)
+01:13:56 - 	at net.minecraft.mod.SkinFix.skinGet(SkinFix.java:70)
+01:13:56 - 	at net.minecraft.src.EntityPlayerSP.<init>(EntityPlayerSP.java:44)
+01:13:56 - 	at net.minecraft.src.EntityClientPlayerMP.<init>(EntityClientPlayerMP.java:30)
+01:13:56 - 	at net.minecraft.src.PlayerControllerMP.func_78754_a(PlayerControllerMP.java:393)
+01:13:56 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:2061)
+01:13:56 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:1991)
+01:13:56 - 	at net.minecraft.src.NetClientHandler.handleLogin(NetClientHandler.java:158)
+01:13:56 - 	at net.minecraft.src.Packet1Login.processPacket(Packet1Login.java:91)
+01:13:56 - 	at net.minecraft.src.MemoryConnection.processReadPackets(MemoryConnection.java:73)
+01:13:56 - 	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1898)
+01:13:56 - 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:843)
+01:13:56 - 	at net.minecraft.client.Minecraft.run(Minecraft.java:768)
+01:13:56 - 	at java.lang.Thread.run(Thread.java:750)
+01:13:56 - java.lang.NullPointerException
+01:13:56 - 	at net.minecraft.mod.SkinFix.skinGet(SkinFix.java:79)
+01:13:56 - 	at net.minecraft.src.EntityPlayerSP.<init>(EntityPlayerSP.java:44)
+01:13:56 - 	at net.minecraft.src.EntityClientPlayerMP.<init>(EntityClientPlayerMP.java:30)
+01:13:56 - 	at net.minecraft.src.PlayerControllerMP.func_78754_a(PlayerControllerMP.java:393)
+01:13:56 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:2061)
+01:13:56 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:1991)
+01:13:56 - 	at net.minecraft.src.NetClientHandler.handleLogin(NetClientHandler.java:158)
+01:13:56 - 	at net.minecraft.src.Packet1Login.processPacket(Packet1Login.java:91)
+01:13:56 - 	at net.minecraft.src.MemoryConnection.processReadPackets(MemoryConnection.java:73)
+01:13:56 - 	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1898)
+01:13:56 - 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:843)
+01:13:56 - 	at net.minecraft.client.Minecraft.run(Minecraft.java:768)
+01:13:56 - 	at java.lang.Thread.run(Thread.java:750)
+01:13:56 - Apr 17, 2024 1:13:56 AM net.minecraft.server.MinecraftServer stopServer
+01:13:56 - INFO: Stopping server
+01:13:56 - Apr 17, 2024 1:13:56 AM net.minecraft.server.MinecraftServer stopServer
+01:13:56 - INFO: Saving players
+01:13:56 - Apr 17, 2024 1:13:56 AM net.minecraft.server.MinecraftServer stopServer
+01:13:56 - INFO: Saving worlds
+01:13:56 - Apr 17, 2024 1:13:56 AM net.minecraft.server.MinecraftServer saveAllWorlds
+01:13:56 - INFO: Saving chunks for level 'New World'/Overworld
+01:13:56 - Apr 17, 2024 1:13:56 AM net.minecraft.server.MinecraftServer saveAllWorlds
+01:13:56 - INFO: Saving chunks for level 'New World'/Nether
+01:13:56 - Apr 17, 2024 1:13:56 AM net.minecraft.server.MinecraftServer saveAllWorlds
+01:13:56 - INFO: Saving chunks for level 'New World'/The End
+01:14:06 - Stopping!
+01:14:06 - 
+01:14:06 - SoundSystem shutting down...
+01:14:06 -     Author: Paul Lamb, www.paulscode.com
+01:14:06 - 
+01:14:06 - Exception in thread "Minecraft main thread" org.lwjgl.LWJGLException: X Error - disp: 0xffffffffa3a284f0 serial: 819 error: BadWindow (invalid Window parameter) request_code: 2 minor_code: 0
+01:14:06 - 	at org.lwjgl.opengl.LinuxDisplay.globalErrorHandler(LinuxDisplay.java:320)
+01:14:06 - 	at org.lwjgl.opengl.LinuxKeyboard.nSetDetectableKeyRepeat(Native Method)
+01:14:06 - 	at org.lwjgl.opengl.LinuxKeyboard.setDetectableKeyRepeat(LinuxKeyboard.java:152)
+01:14:06 - 	at org.lwjgl.opengl.LinuxKeyboard.destroy(LinuxKeyboard.java:163)
+01:14:06 - 	at org.lwjgl.opengl.LinuxDisplay.destroyKeyboard(LinuxDisplay.java:1261)
+01:14:06 - 	at org.lwjgl.input.Keyboard.destroy(Keyboard.java:357)
+01:14:06 - 	at net.minecraft.client.Minecraft.shutdownMinecraftApplet(Minecraft.java:720)
+01:14:06 - 	at net.minecraft.client.Minecraft.run(Minecraft.java:798)
+01:14:06 - 	at java.lang.Thread.run(Thread.java:750)
+01:17:53 - == MCP 7.26 (data: 7.26a, client: 1.4.7, server: 1.4.7) ==
+01:17:53 - OS : linux2
+01:17:53 - # VERSION INFO
+01:17:53 - python: 2.7.18 (default, Dec 22 2023, 00:00:00) 
+[GCC 13.2.1 20231205 (Red Hat 13.2.1-6)]
+01:17:53 - platform: Linux-6.8.4-200.fc39.x86_64-x86_64-with-fedora-39-Thirty_Nine
+01:17:53 - # java: '"java" -version'
+01:17:53 - java version "1.8.0_401"
+Java(TM) SE Runtime Environment (build 1.8.0_401-b10)
+Java HotSpot(TM) Server VM (build 25.401-b10, mixed mode)
+01:17:53 - # javac: '"javac" -version'
+01:17:53 - javac 1.7.0_80
+01:17:53 - # javac runtime: '"javac" -J-version'
+01:17:53 - java version "1.7.0_80"
+Java(TM) SE Runtime Environment (build 1.7.0_80-b15)
+Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode)
+01:17:53 - # retroguard: 'runtime/bin/retroguard.jar --version'
+01:17:53 - RetroGuard MCP v3.6.5
+based on RetroGuard v2.3.1 by Retrologic Systems - www.retrologic.com
+01:17:53 - # mcinjector: 'runtime/bin/mcinjector.jar --version'
+01:17:53 - MCInjector v2.8 by Searge, LexManos, Fesh0r
+01:17:53 - # patch: 'patch --version'
+01:17:53 - GNU patch 2.7.6
+01:17:53 - # wine: 'wine --version'
+01:17:53 - wine-9.1 (Staging)
+01:17:53 - # astyle: 'astyle --version'
+01:17:53 - # astyle: 'wine runtime/bin/astyle.exe --version'
+01:17:58 - 002c:fixme:winediag:loader_init wine-staging 9.1 is a testing version containing experimental patches.
+002c:fixme:winediag:loader_init Please mention your exact version when filing bug reports on winehq.org.
+0128:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+Artistic Style Version 2.02.1
+01:17:58 - # jadretro: 'runtime/bin/jadretro.jar'
+01:17:58 - Error: Unable to access jarfile runtime/bin/jadretro.jar
+01:17:58 - # jad: 'wine runtime/bin/jad.exe'
+01:18:02 - 002c:fixme:winediag:loader_init wine-staging 9.1 is a testing version containing experimental patches.
+01:18:02 - # fernflower: 'runtime/bin/fernflower.jar'
+01:18:02 - Usage: java ConsoleDecompiler ( -<option>=<value>)* (<source>)+ <destination>
+01:18:02 - # found wine, ff, ff patches, srgs, name csvs, doc csvs, param csvs, renumber csv, astyle, astyle config
+01:18:02 - == Recompiling client ==
+01:18:02 - > Cleaning bin
+01:18:02 - > Recompiling
+01:18:02 - runcmd: '"javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "lib:lib/*:jars/bin/minecraft.jar:jars/bin/jinput.jar:jars/bin/lwjgl.jar:jars/bin/lwjgl_util.jar" -sourcepath src/minecraft -d bin/minecraft src/minecraft/Start.java src/minecraft/org/bouncycastle/util/Strings.java src/minecraft/org/bouncycastle/jcajce/provider/config/ProviderConfigurationPermission.java src/minecraft/org/bouncycastle/jcajce/provider/config/ProviderConfiguration.java src/minecraft/org/bouncycastle/jcajce/...'
+01:18:02 - shlex: ['javac', '-Xlint:-options', '-deprecation', '-g', '-source', '1.6', '-target', '1.6', '-classpath', 'lib:lib/*:jars/bin/minecraft.jar:jars/bin/jinput.jar:jars/bin/lwjgl.jar:jars/bin/lwjgl_util.jar', '-sourcepath', 'src/minecraft', '-d', 'bin/minecraft', 'src/minecraft/Start.java', 'src/minecraft/org/bouncycastle/util/Strings.java', 'src/minecraft/org/bouncycastle/jcajce/provider/config/ProviderConfigurationPermission.java', 'src/minecraft/org/bouncycastle/jcajce/provider/config/ProviderConfigur...
+01:18:06 - Note: Some input files use unchecked or unsafe operations.
+01:18:06 - Note: Recompile with -Xlint:unchecked for details.
+01:18:06 - - Done in 3.88 seconds
+01:18:06 - !! Can not find server sources, try decompiling !!
+01:18:08 - == MCP 7.26 (data: 7.26a, client: 1.4.7, server: 1.4.7) ==
+01:18:08 - OS : linux2
+01:18:08 - runmc: '"java" -Xincgc -Xms1024M -Xmx1024M -cp "../bin/minecraft:../lib:../lib/*:../jars/bin/minecraft.jar:../jars/bin/jinput.jar:../jars/bin/lwjgl.jar:../jars/bin/lwjgl_util.jar" -Djava.library.path=../jars/bin/natives Start'
+01:18:08 - shlex: ['java', '-Xincgc', '-Xms1024M', '-Xmx1024M', '-cp', '../bin/minecraft:../lib:../lib/*:../jars/bin/minecraft.jar:../jars/bin/jinput.jar:../jars/bin/lwjgl.jar:../jars/bin/lwjgl_util.jar', '-Djava.library.path=../jars/bin/natives', 'Start']
+01:18:08 - Java HotSpot(TM) Server VM warning: Using incremental CMS is deprecated and will likely be removed in a future release
+01:18:08 - 27 achievements
+01:18:08 - 210 recipes
+01:18:08 - Setting user: Player374, -
+01:18:08 - Client asked for parameter: server
+01:18:08 - LWJGL Version: 2.9.4
+01:18:08 - 
+01:18:08 - Starting up SoundSystem...
+01:18:09 - Initializing LWJGL OpenAL
+01:18:09 -     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+01:18:09 - OpenAL initialized.
+01:18:09 - 
+01:18:09 - Failed to add READ_ME_I_AM_VERY_IMPORTANT
+01:18:09 - Failed to add pack.mcmeta
+01:18:09 - java.io.FileNotFoundException: http://s3.amazonaws.com/MinecraftResources/
+01:18:09 - 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1910)
+01:18:09 - 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
+01:18:09 - 	at java.net.URL.openStream(URL.java:1092)
+01:18:09 - 	at net.minecraft.src.ThreadDownloadResources.run(ThreadDownloadResources.java:48)
+01:18:11 - Apr 17, 2024 1:18:11 AM net.minecraft.src.IntegratedServer startServer
+01:18:11 - INFO: Starting integrated minecraft server version 1.4.7
+01:18:11 - Apr 17, 2024 1:18:11 AM net.minecraft.src.IntegratedServer startServer
+01:18:11 - INFO: Generating keypair
+01:18:11 - Apr 17, 2024 1:18:11 AM net.minecraft.server.MinecraftServer initialWorldChunkLoad
+01:18:11 - INFO: Preparing start region for level 0
+01:18:12 - Apr 17, 2024 1:18:12 AM net.minecraft.src.ServerConfigurationManager initializeConnectionToPlayer
+01:18:12 - INFO: Player374[/127.0.0.1:0] logged in with entity id 404 at (-192.53594955722707, 72.0, 310.35052588222936)
+01:18:12 - java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/Player374
+01:18:12 - 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1910)
+01:18:12 - 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
+01:18:12 - 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+01:18:12 - 	at net.minecraft.mod.SkinFix.jsonGetRequest(SkinFix.java:36)
+01:18:12 - 	at net.minecraft.mod.SkinFix.skinGet(SkinFix.java:58)
+01:18:12 - 	at net.minecraft.src.EntityPlayerSP.<init>(EntityPlayerSP.java:44)
+01:18:12 - 	at net.minecraft.src.EntityClientPlayerMP.<init>(EntityClientPlayerMP.java:30)
+01:18:12 - 	at net.minecraft.src.PlayerControllerMP.func_78754_a(PlayerControllerMP.java:393)
+01:18:12 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:2061)
+01:18:12 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:1991)
+01:18:12 - 	at net.minecraft.src.NetClientHandler.handleLogin(NetClientHandler.java:158)
+01:18:12 - 	at net.minecraft.src.Packet1Login.processPacket(Packet1Login.java:91)
+01:18:12 - 	at net.minecraft.src.MemoryConnection.processReadPackets(MemoryConnection.java:73)
+01:18:12 - 	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1898)
+01:18:12 - 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:843)
+01:18:12 - 	at net.minecraft.client.Minecraft.run(Minecraft.java:768)
+01:18:12 - 	at java.lang.Thread.run(Thread.java:750)
+01:18:12 - java.lang.NullPointerException
+01:18:12 - 	at java.io.StringReader.<init>(StringReader.java:50)
+01:18:12 - 	at org.json.simple.parser.JSONParser.parse(JSONParser.java:55)
+01:18:12 - 	at org.json.simple.parser.JSONParser.parse(JSONParser.java:51)
+01:18:12 - 	at net.minecraft.mod.SkinFix.parseJSON(SkinFix.java:48)
+01:18:12 - 	at net.minecraft.mod.SkinFix.skinGet(SkinFix.java:59)
+01:18:12 - 	at net.minecraft.src.EntityPlayerSP.<init>(EntityPlayerSP.java:44)
+01:18:12 - 	at net.minecraft.src.EntityClientPlayerMP.<init>(EntityClientPlayerMP.java:30)
+01:18:12 - 	at net.minecraft.src.PlayerControllerMP.func_78754_a(PlayerControllerMP.java:393)
+01:18:12 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:2061)
+01:18:12 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:1991)
+01:18:12 - 	at net.minecraft.src.NetClientHandler.handleLogin(NetClientHandler.java:158)
+01:18:12 - 	at net.minecraft.src.Packet1Login.processPacket(Packet1Login.java:91)
+01:18:12 - 	at net.minecraft.src.MemoryConnection.processReadPackets(MemoryConnection.java:73)
+01:18:12 - 	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1898)
+01:18:12 - 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:843)
+01:18:12 - 	at net.minecraft.client.Minecraft.run(Minecraft.java:768)
+01:18:12 - 	at java.lang.Thread.run(Thread.java:750)
+01:18:12 - java.io.FileNotFoundException: https://sessionserver.mojang.com/session/minecraft/profile/
+01:18:12 - 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1910)
+01:18:12 - 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
+01:18:12 - 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+01:18:12 - 	at net.minecraft.mod.SkinFix.jsonGetRequest(SkinFix.java:36)
+01:18:12 - 	at net.minecraft.mod.SkinFix.skinGet(SkinFix.java:69)
+01:18:12 - 	at net.minecraft.src.EntityPlayerSP.<init>(EntityPlayerSP.java:44)
+01:18:12 - 	at net.minecraft.src.EntityClientPlayerMP.<init>(EntityClientPlayerMP.java:30)
+01:18:12 - 	at net.minecraft.src.PlayerControllerMP.func_78754_a(PlayerControllerMP.java:393)
+01:18:12 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:2061)
+01:18:12 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:1991)
+01:18:12 - 	at net.minecraft.src.NetClientHandler.handleLogin(NetClientHandler.java:158)
+01:18:12 - 	at net.minecraft.src.Packet1Login.processPacket(Packet1Login.java:91)
+01:18:12 - 	at net.minecraft.src.MemoryConnection.processReadPackets(MemoryConnection.java:73)
+01:18:12 - 	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1898)
+01:18:12 - 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:843)
+01:18:12 - 	at net.minecraft.client.Minecraft.run(Minecraft.java:768)
+01:18:12 - 	at java.lang.Thread.run(Thread.java:750)
+01:18:12 - java.lang.NullPointerException
+01:18:12 - 	at java.io.StringReader.<init>(StringReader.java:50)
+01:18:12 - 	at org.json.simple.parser.JSONParser.parse(JSONParser.java:55)
+01:18:12 - 	at org.json.simple.parser.JSONParser.parse(JSONParser.java:51)
+01:18:12 - 	at net.minecraft.mod.SkinFix.parseJSON(SkinFix.java:48)
+01:18:12 - 	at net.minecraft.mod.SkinFix.skinGet(SkinFix.java:70)
+01:18:12 - 	at net.minecraft.src.EntityPlayerSP.<init>(EntityPlayerSP.java:44)
+01:18:12 - 	at net.minecraft.src.EntityClientPlayerMP.<init>(EntityClientPlayerMP.java:30)
+01:18:12 - 	at net.minecraft.src.PlayerControllerMP.func_78754_a(PlayerControllerMP.java:393)
+01:18:12 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:2061)
+01:18:12 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:1991)
+01:18:12 - 	at net.minecraft.src.NetClientHandler.handleLogin(NetClientHandler.java:158)
+01:18:12 - 	at net.minecraft.src.Packet1Login.processPacket(Packet1Login.java:91)
+01:18:12 - 	at net.minecraft.src.MemoryConnection.processReadPackets(MemoryConnection.java:73)
+01:18:12 - 	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1898)
+01:18:12 - 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:843)
+01:18:12 - 	at net.minecraft.client.Minecraft.run(Minecraft.java:768)
+01:18:12 - 	at java.lang.Thread.run(Thread.java:750)
+01:18:12 - Unexpected token END OF FILE at position 0.
+01:18:12 - 	at org.json.simple.parser.JSONParser.parse(JSONParser.java:214)
+01:18:12 - 	at org.json.simple.parser.JSONParser.parse(JSONParser.java:58)
+01:18:12 - 	at org.json.simple.parser.JSONParser.parse(JSONParser.java:51)
+01:18:12 - 	at net.minecraft.mod.SkinFix.parseJSON(SkinFix.java:48)
+01:18:12 - 	at net.minecraft.mod.SkinFix.skinGet(SkinFix.java:88)
+01:18:12 - 	at net.minecraft.src.EntityPlayerSP.<init>(EntityPlayerSP.java:44)
+01:18:12 - 	at net.minecraft.src.EntityClientPlayerMP.<init>(EntityClientPlayerMP.java:30)
+01:18:12 - 	at net.minecraft.src.PlayerControllerMP.func_78754_a(PlayerControllerMP.java:393)
+01:18:12 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:2061)
+01:18:12 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:1991)
+01:18:12 - 	at net.minecraft.src.NetClientHandler.handleLogin(NetClientHandler.java:158)
+01:18:12 - 	at net.minecraft.src.Packet1Login.processPacket(Packet1Login.java:91)
+01:18:12 - 	at net.minecraft.src.MemoryConnection.processReadPackets(MemoryConnection.java:73)
+01:18:12 - 	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1898)
+01:18:12 - 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:843)
+01:18:12 - 	at net.minecraft.client.Minecraft.run(Minecraft.java:768)
+01:18:12 - 	at java.lang.Thread.run(Thread.java:750)
+01:18:12 - java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/Player374
+01:18:12 - 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1910)
+01:18:12 - 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
+01:18:12 - 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+01:18:12 - 	at net.minecraft.mod.SkinFix.jsonGetRequest(SkinFix.java:36)
+01:18:12 - 	at net.minecraft.mod.SkinFix.skinGet(SkinFix.java:58)
+01:18:12 - 	at net.minecraft.src.EntityPlayerSP.updateCloak(EntityPlayerSP.java:287)
+01:18:12 - 	at net.minecraft.src.RenderGlobal.obtainEntitySkin(RenderGlobal.java:2028)
+01:18:12 - 	at net.minecraft.src.World.obtainEntitySkin(World.java:1438)
+01:18:12 - 	at net.minecraft.src.WorldClient.obtainEntitySkin(WorldClient.java:174)
+01:18:12 - 	at net.minecraft.src.World.spawnEntityInWorld(World.java:1426)
+01:18:12 - 	at net.minecraft.src.WorldClient.spawnEntityInWorld(WorldClient.java:149)
+01:18:12 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:2066)
+01:18:12 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:1991)
+01:18:12 - 	at net.minecraft.src.NetClientHandler.handleLogin(NetClientHandler.java:158)
+01:18:12 - 	at net.minecraft.src.Packet1Login.processPacket(Packet1Login.java:91)
+01:18:12 - 	at net.minecraft.src.MemoryConnection.processReadPackets(MemoryConnection.java:73)
+01:18:12 - 	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1898)
+01:18:12 - 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:843)
+01:18:12 - 	at net.minecraft.client.Minecraft.run(Minecraft.java:768)
+01:18:12 - 	at java.lang.Thread.run(Thread.java:750)
+01:18:12 - java.lang.NullPointerException
+01:18:12 - 	at java.io.StringReader.<init>(StringReader.java:50)
+01:18:12 - 	at org.json.simple.parser.JSONParser.parse(JSONParser.java:55)
+01:18:12 - 	at org.json.simple.parser.JSONParser.parse(JSONParser.java:51)
+01:18:12 - 	at net.minecraft.mod.SkinFix.parseJSON(SkinFix.java:48)
+01:18:12 - 	at net.minecraft.mod.SkinFix.skinGet(SkinFix.java:59)
+01:18:12 - 	at net.minecraft.src.EntityPlayerSP.updateCloak(EntityPlayerSP.java:287)
+01:18:12 - 	at net.minecraft.src.RenderGlobal.obtainEntitySkin(RenderGlobal.java:2028)
+01:18:12 - 	at net.minecraft.src.World.obtainEntitySkin(World.java:1438)
+01:18:12 - 	at net.minecraft.src.WorldClient.obtainEntitySkin(WorldClient.java:174)
+01:18:12 - 	at net.minecraft.src.World.spawnEntityInWorld(World.java:1426)
+01:18:12 - 	at net.minecraft.src.WorldClient.spawnEntityInWorld(WorldClient.java:149)
+01:18:12 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:2066)
+01:18:12 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:1991)
+01:18:12 - 	at net.minecraft.src.NetClientHandler.handleLogin(NetClientHandler.java:158)
+01:18:12 - 	at net.minecraft.src.Packet1Login.processPacket(Packet1Login.java:91)
+01:18:12 - 	at net.minecraft.src.MemoryConnection.processReadPackets(MemoryConnection.java:73)
+01:18:12 - 	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1898)
+01:18:12 - 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:843)
+01:18:12 - 	at net.minecraft.client.Minecraft.run(Minecraft.java:768)
+01:18:12 - 	at java.lang.Thread.run(Thread.java:750)
+01:18:13 - java.io.FileNotFoundException: https://sessionserver.mojang.com/session/minecraft/profile/
+01:18:13 - 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1910)
+01:18:13 - 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1512)
+01:18:13 - 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+01:18:13 - 	at net.minecraft.mod.SkinFix.jsonGetRequest(SkinFix.java:36)
+01:18:13 - 	at net.minecraft.mod.SkinFix.skinGet(SkinFix.java:69)
+01:18:13 - 	at net.minecraft.src.EntityPlayerSP.updateCloak(EntityPlayerSP.java:287)
+01:18:13 - 	at net.minecraft.src.RenderGlobal.obtainEntitySkin(RenderGlobal.java:2028)
+01:18:13 - 	at net.minecraft.src.World.obtainEntitySkin(World.java:1438)
+01:18:13 - 	at net.minecraft.src.WorldClient.obtainEntitySkin(WorldClient.java:174)
+01:18:13 - 	at net.minecraft.src.World.spawnEntityInWorld(World.java:1426)
+01:18:13 - 	at net.minecraft.src.WorldClient.spawnEntityInWorld(WorldClient.java:149)
+01:18:13 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:2066)
+01:18:13 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:1991)
+01:18:13 - 	at net.minecraft.src.NetClientHandler.handleLogin(NetClientHandler.java:158)
+01:18:13 - 	at net.minecraft.src.Packet1Login.processPacket(Packet1Login.java:91)
+01:18:13 - 	at net.minecraft.src.MemoryConnection.processReadPackets(MemoryConnection.java:73)
+01:18:13 - 	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1898)
+01:18:13 - 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:843)
+01:18:13 - 	at net.minecraft.client.Minecraft.run(Minecraft.java:768)
+01:18:13 - 	at java.lang.Thread.run(Thread.java:750)
+01:18:13 - java.lang.NullPointerException
+01:18:13 - 	at java.io.StringReader.<init>(StringReader.java:50)
+01:18:13 - 	at org.json.simple.parser.JSONParser.parse(JSONParser.java:55)
+01:18:13 - 	at org.json.simple.parser.JSONParser.parse(JSONParser.java:51)
+01:18:13 - 	at net.minecraft.mod.SkinFix.parseJSON(SkinFix.java:48)
+01:18:13 - 	at net.minecraft.mod.SkinFix.skinGet(SkinFix.java:70)
+01:18:13 - 	at net.minecraft.src.EntityPlayerSP.updateCloak(EntityPlayerSP.java:287)
+01:18:13 - 	at net.minecraft.src.RenderGlobal.obtainEntitySkin(RenderGlobal.java:2028)
+01:18:13 - 	at net.minecraft.src.World.obtainEntitySkin(World.java:1438)
+01:18:13 - 	at net.minecraft.src.WorldClient.obtainEntitySkin(WorldClient.java:174)
+01:18:13 - 	at net.minecraft.src.World.spawnEntityInWorld(World.java:1426)
+01:18:13 - 	at net.minecraft.src.WorldClient.spawnEntityInWorld(WorldClient.java:149)
+01:18:13 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:2066)
+01:18:13 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:1991)
+01:18:13 - 	at net.minecraft.src.NetClientHandler.handleLogin(NetClientHandler.java:158)
+01:18:13 - 	at net.minecraft.src.Packet1Login.processPacket(Packet1Login.java:91)
+01:18:13 - 	at net.minecraft.src.MemoryConnection.processReadPackets(MemoryConnection.java:73)
+01:18:13 - 	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1898)
+01:18:13 - 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:843)
+01:18:13 - 	at net.minecraft.client.Minecraft.run(Minecraft.java:768)
+01:18:13 - 	at java.lang.Thread.run(Thread.java:750)
+01:18:13 - Unexpected token END OF FILE at position 0.
+01:18:13 - 	at org.json.simple.parser.JSONParser.parse(JSONParser.java:214)
+01:18:13 - 	at org.json.simple.parser.JSONParser.parse(JSONParser.java:58)
+01:18:13 - 	at org.json.simple.parser.JSONParser.parse(JSONParser.java:51)
+01:18:13 - 	at net.minecraft.mod.SkinFix.parseJSON(SkinFix.java:48)
+01:18:13 - 	at net.minecraft.mod.SkinFix.skinGet(SkinFix.java:88)
+01:18:13 - 	at net.minecraft.src.EntityPlayerSP.updateCloak(EntityPlayerSP.java:287)
+01:18:13 - 	at net.minecraft.src.RenderGlobal.obtainEntitySkin(RenderGlobal.java:2028)
+01:18:13 - 	at net.minecraft.src.World.obtainEntitySkin(World.java:1438)
+01:18:13 - 	at net.minecraft.src.WorldClient.obtainEntitySkin(WorldClient.java:174)
+01:18:13 - 	at net.minecraft.src.World.spawnEntityInWorld(World.java:1426)
+01:18:13 - 	at net.minecraft.src.WorldClient.spawnEntityInWorld(WorldClient.java:149)
+01:18:13 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:2066)
+01:18:13 - 	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:1991)
+01:18:13 - 	at net.minecraft.src.NetClientHandler.handleLogin(NetClientHandler.java:158)
+01:18:13 - 	at net.minecraft.src.Packet1Login.processPacket(Packet1Login.java:91)
+01:18:13 - 	at net.minecraft.src.MemoryConnection.processReadPackets(MemoryConnection.java:73)
+01:18:13 - 	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1898)
+01:18:13 - 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:843)
+01:18:13 - 	at net.minecraft.client.Minecraft.run(Minecraft.java:768)
+01:18:13 - 	at java.lang.Thread.run(Thread.java:750)
+01:18:37 - Apr 17, 2024 1:18:37 AM net.minecraft.src.IntegratedServer tick
+01:18:37 - INFO: Saving and pausing game...
+01:18:37 - Apr 17, 2024 1:18:37 AM net.minecraft.server.MinecraftServer saveAllWorlds
+01:18:37 - INFO: Saving chunks for level 'New World'/Overworld
+01:18:37 - Apr 17, 2024 1:18:37 AM net.minecraft.server.MinecraftServer saveAllWorlds
+01:18:37 - INFO: Saving chunks for level 'New World'/Nether
+01:18:37 - Apr 17, 2024 1:18:37 AM net.minecraft.server.MinecraftServer saveAllWorlds
+01:18:37 - INFO: Saving chunks for level 'New World'/The End
+01:18:37 - Apr 17, 2024 1:18:37 AM net.minecraft.server.MinecraftServer stopServer
+01:18:37 - INFO: Stopping server
+01:18:37 - Apr 17, 2024 1:18:37 AM net.minecraft.server.MinecraftServer stopServer
+01:18:37 - INFO: Saving players
+01:18:37 - Apr 17, 2024 1:18:37 AM net.minecraft.server.MinecraftServer stopServer
+01:18:37 - INFO: Saving worlds
+01:18:37 - Apr 17, 2024 1:18:37 AM net.minecraft.server.MinecraftServer saveAllWorlds
+01:18:37 - INFO: Saving chunks for level 'New World'/Overworld
+01:18:37 - Apr 17, 2024 1:18:37 AM net.minecraft.server.MinecraftServer saveAllWorlds
+01:18:37 - INFO: Saving chunks for level 'New World'/Nether
+01:18:37 - Apr 17, 2024 1:18:37 AM net.minecraft.server.MinecraftServer saveAllWorlds
+01:18:37 - INFO: Saving chunks for level 'New World'/The End
+01:18:38 - Stopping!
+01:18:38 - 
+01:18:38 - SoundSystem shutting down...
+01:18:38 -     Author: Paul Lamb, www.paulscode.com
+01:18:38 - 
